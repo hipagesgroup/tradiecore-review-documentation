@@ -1,0 +1,54 @@
+var TSC = TSC || {};
+
+TSC.embedded_config_xml = '<x:xmpmeta tsc:version="2.0.1" xmlns:x="adobe:ns:meta/" xmlns:tsc="http://www.techsmith.com/xmp/tsc/">\
+   <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:xmp="http://ns.adobe.com/xap/1.0/" xmlns:xmpDM="http://ns.adobe.com/xmp/1.0/DynamicMedia/" xmlns:xmpG="http://ns.adobe.com/xap/1.0/g/" xmlns:xmpMM="http://ns.adobe.com/xap/1.0/mm/" xmlns:tscDM="http://www.techsmith.com/xmp/tscDM/" xmlns:tscIQ="http://www.techsmith.com/xmp/tscIQ/" xmlns:tscHS="http://www.techsmith.com/xmp/tscHS/" xmlns:stDim="http://ns.adobe.com/xap/1.0/sType/Dimensions#" xmlns:stFnt="http://ns.adobe.com/xap/1.0/sType/Font#" xmlns:exif="http://ns.adobe.com/exif/1.0" xmlns:dc="http://purl.org/dc/elements/1.1/">\
+      <rdf:Description dc:date="2025-06-17 06:26:01 PM" dc:source="Camtasia,25.0.1,enu" dc:title="Quotes_V2_Deposit" tscDM:firstFrame="Quotes_V2_Deposit_First_Frame.png" tscDM:project="Quotes_V2">\
+         <xmpDM:duration xmpDM:scale="1/1000" xmpDM:value="648866"/>\
+         <xmpDM:videoFrameSize stDim:unit="pixel" stDim:h="1920" stDim:w="1080"/>\
+         <tsc:langName>\
+            <rdf:Bag>\
+               <rdf:li xml:lang="en-US">English</rdf:li></rdf:Bag>\
+         </tsc:langName>\
+         <xmpDM:Tracks>\
+            <rdf:Bag>\
+               <rdf:li>\
+                  <rdf:Description xmpDM:trackType="Caption" xmpDM:frameRate="f1000" xmpDM:trackName="Captioning" stFnt:fontFamily="Arial" tscDM:fontSize="39" tscDM:bgOpacity="0.750000" tscDM:position="overlay">\
+                     <xmpDM:markers>\
+                        <rdf:Seq>\
+                           <rdf:li><rdf:Description xmpDM:duration="2583" xmpDM:startTime="11117" tscDM:valign="bottom" tscDM:halign="center"><xmpDM:name><rdf:Alt><rdf:li xml:lang="en-US">{\\rtf1 Sometimes it helps to lock in a bit of commitment upfront.}</rdf:li></rdf:Alt></xmpDM:name></rdf:Description></rdf:li><rdf:li><rdf:Description xmpDM:duration="3350" xmpDM:startTime="13733" tscDM:valign="bottom" tscDM:halign="center"><xmpDM:name><rdf:Alt><rdf:li xml:lang="en-US">{\\rtf1 In this video, we’ll show you how to add a deposit to your quote}</rdf:li></rdf:Alt></xmpDM:name></rdf:Description></rdf:li><rdf:li><rdf:Description xmpDM:duration="1900" xmpDM:startTime="17217" tscDM:valign="bottom" tscDM:halign="center"><xmpDM:name><rdf:Alt><rdf:li xml:lang="en-US">{\\rtf1 whether that’s a percentage of the total}</rdf:li></rdf:Alt></xmpDM:name></rdf:Description></rdf:li><rdf:li><rdf:Description xmpDM:duration="1033" xmpDM:startTime="19117" tscDM:valign="bottom" tscDM:halign="center"><xmpDM:name><rdf:Alt><rdf:li xml:lang="en-US">{\\rtf1 or a fixed amount.}</rdf:li></rdf:Alt></xmpDM:name></rdf:Description></rdf:li><rdf:li><rdf:Description xmpDM:duration="2667" xmpDM:startTime="20583" tscDM:valign="bottom" tscDM:halign="center"><xmpDM:name><rdf:Alt><rdf:li xml:lang="en-US">{\\rtf1 It’s a simple way to help get your customer over the line}</rdf:li></rdf:Alt></xmpDM:name></rdf:Description></rdf:li><rdf:li><rdf:Description xmpDM:duration="2167" xmpDM:startTime="23250" tscDM:valign="bottom" tscDM:halign="center"><xmpDM:name><rdf:Alt><rdf:li xml:lang="en-US">{\\rtf1 and give you peace of mind before the work begins.}</rdf:li></rdf:Alt></xmpDM:name></rdf:Description></rdf:li><rdf:li><rdf:Description xmpDM:duration="2767" xmpDM:startTime="26617" tscDM:valign="bottom" tscDM:halign="center"><xmpDM:name><rdf:Alt><rdf:li xml:lang="en-US">{\\rtf1 To set a percentage, tap the Percentage of total row}</rdf:li></rdf:Alt></xmpDM:name></rdf:Description></rdf:li><rdf:li><rdf:Description xmpDM:duration="1000" xmpDM:startTime="29383" tscDM:valign="bottom" tscDM:halign="center"><xmpDM:name><rdf:Alt><rdf:li xml:lang="en-US">{\\rtf1 and enter the number.}</rdf:li></rdf:Alt></xmpDM:name></rdf:Description></rdf:li><rdf:li><rdf:Description xmpDM:duration="1867" xmpDM:startTime="30783" tscDM:valign="bottom" tscDM:halign="center"><xmpDM:name><rdf:Alt><rdf:li xml:lang="en-US">{\\rtf1 Tradiecore will automatically calculate}</rdf:li></rdf:Alt></xmpDM:name></rdf:Description></rdf:li><rdf:li><rdf:Description xmpDM:duration="1583" xmpDM:startTime="32650" tscDM:valign="bottom" tscDM:halign="center"><xmpDM:name><rdf:Alt><rdf:li xml:lang="en-US">{\\rtf1 and display the deposit amount}</rdf:li></rdf:Alt></xmpDM:name></rdf:Description></rdf:li><rdf:li><rdf:Description xmpDM:duration="1050" xmpDM:startTime="34233" tscDM:valign="bottom" tscDM:halign="center"><xmpDM:name><rdf:Alt><rdf:li xml:lang="en-US">{\\rtf1 based on your total.}</rdf:li></rdf:Alt></xmpDM:name></rdf:Description></rdf:li><rdf:li><rdf:Description xmpDM:duration="1233" xmpDM:startTime="36200" tscDM:valign="bottom" tscDM:halign="center"><xmpDM:name><rdf:Alt><rdf:li xml:lang="en-US">{\\rtf1 To set a fixed amount, }</rdf:li></rdf:Alt></xmpDM:name></rdf:Description></rdf:li><rdf:li><rdf:Description xmpDM:duration="2267" xmpDM:startTime="37433" tscDM:valign="bottom" tscDM:halign="center"><xmpDM:name><rdf:Alt><rdf:li xml:lang="en-US">{\\rtf1 just enter it in the Deposit amount row.}</rdf:li></rdf:Alt></xmpDM:name></rdf:Description></rdf:li><rdf:li><rdf:Description xmpDM:duration="1667" xmpDM:startTime="40417" tscDM:valign="bottom" tscDM:halign="center"><xmpDM:name><rdf:Alt><rdf:li xml:lang="en-US">{\\rtf1 Tradiecore will then show you what}</rdf:li></rdf:Alt></xmpDM:name></rdf:Description></rdf:li><rdf:li><rdf:Description xmpDM:duration="2300" xmpDM:startTime="42083" tscDM:valign="bottom" tscDM:halign="center"><xmpDM:name><rdf:Alt><rdf:li xml:lang="en-US">{\\rtf1 percentage of the total that amount represents.}</rdf:li></rdf:Alt></xmpDM:name></rdf:Description></rdf:li><rdf:li><rdf:Description xmpDM:duration="2150" xmpDM:startTime="44383" tscDM:valign="bottom" tscDM:halign="center"><xmpDM:name><rdf:Alt><rdf:li xml:lang="en-US">{\\rtf1 So everything stays clear and accurate.}</rdf:li></rdf:Alt></xmpDM:name></rdf:Description></rdf:li><rdf:li><rdf:Description xmpDM:duration="1867" xmpDM:startTime="47450" tscDM:valign="bottom" tscDM:halign="center"><xmpDM:name><rdf:Alt><rdf:li xml:lang="en-US">{\\rtf1 And that’s how to add a deposit to your quote.}</rdf:li></rdf:Alt></xmpDM:name></rdf:Description></rdf:li><rdf:li><rdf:Description xmpDM:duration="2733" xmpDM:startTime="49633" tscDM:valign="bottom" tscDM:halign="center"><xmpDM:name><rdf:Alt><rdf:li xml:lang="en-US">{\\rtf1 It’s a smart way to show your customer you’re serious,}</rdf:li></rdf:Alt></xmpDM:name></rdf:Description></rdf:li><rdf:li><rdf:Description xmpDM:duration="2683" xmpDM:startTime="52367" tscDM:valign="bottom" tscDM:halign="center"><xmpDM:name><rdf:Alt><rdf:li xml:lang="en-US">{\\rtf1 while making sure you\'re covered before the job kicks off.}</rdf:li></rdf:Alt></xmpDM:name></rdf:Description></rdf:li><rdf:li><rdf:Description xmpDM:duration="917" xmpDM:startTime="55150" tscDM:valign="bottom" tscDM:halign="center"><xmpDM:name><rdf:Alt><rdf:li xml:lang="en-US">{\\rtf1 Thanks for watching.}</rdf:li></rdf:Alt></xmpDM:name></rdf:Description></rdf:li><rdf:li><rdf:Description xmpDM:duration="2517" xmpDM:startTime="56383" tscDM:valign="bottom" tscDM:halign="center"><xmpDM:name><rdf:Alt><rdf:li xml:lang="en-US">{\\rtf1 You’ll find more how-to guides in the Help Centre}</rdf:li></rdf:Alt></xmpDM:name></rdf:Description></rdf:li><rdf:li><rdf:Description xmpDM:duration="983" xmpDM:startTime="58900" tscDM:valign="bottom" tscDM:halign="center"><xmpDM:name><rdf:Alt><rdf:li xml:lang="en-US">{\\rtf1 whenever you need them.}</rdf:li></rdf:Alt></xmpDM:name></rdf:Description></rdf:li><rdf:li><rdf:Description xmpDM:duration="750" xmpDM:startTime="60133" tscDM:valign="bottom" tscDM:halign="center"><xmpDM:name><rdf:Alt><rdf:li xml:lang="en-US">{\\rtf1 And of course,}</rdf:li></rdf:Alt></xmpDM:name></rdf:Description></rdf:li><rdf:li><rdf:Description xmpDM:duration="2033" xmpDM:startTime="60883" tscDM:valign="bottom" tscDM:halign="center"><xmpDM:name><rdf:Alt><rdf:li xml:lang="en-US">{\\rtf1 if you need a hand, we’re just a message away.}</rdf:li></rdf:Alt></xmpDM:name></rdf:Description></rdf:li></rdf:Seq>\
+                     </xmpDM:markers>\
+                     <tsc:fgColor xmpG:red="255" xmpG:green="255" xmpG:blue="255"/><tsc:bgColor xmpG:red="0" xmpG:green="0" xmpG:blue="0"/></rdf:Description>\
+               </rdf:li>\
+               <rdf:li>\
+                  <rdf:Description xmpDM:trackType="TableOfContents" xmpDM:frameRate="f1000" xmpDM:trackName="Table of Contents">\
+                     <xmpDM:markers>\
+                        <rdf:Seq>\
+                           <rdf:li><rdf:Description xmpDM:name="Adding a deposit" xmpDM:startTime="0" tscDM:image="Quotes_V2_Deposit_Thumbnails.png" tscDM:imageindex="0" tscDM:imageoffset="0" tscDM:imagerect="0, 0, 42, 75"/></rdf:li></rdf:Seq>\
+                     </xmpDM:markers>\
+                  </rdf:Description>\
+               </rdf:li>\
+            </rdf:Bag>\
+         </xmpDM:Tracks>\
+         <tscDM:controller>\
+            <rdf:Description xmpDM:name="tscplayer">\
+               <tscDM:parameters>\
+                  <rdf:Bag>\
+                     <rdf:li xmpDM:name="autohide" xmpDM:value="true"/><rdf:li xmpDM:name="autoplay" xmpDM:value="false"/><rdf:li xmpDM:name="loop" xmpDM:value="false"/><rdf:li xmpDM:name="searchable" xmpDM:value="true"/><rdf:li xmpDM:name="captionsenabled" xmpDM:value="false"/><rdf:li xmpDM:name="sidebarenabled" xmpDM:value="false"/><rdf:li xmpDM:name="unicodeenabled" xmpDM:value="false"/><rdf:li xmpDM:name="backgroundcolor" xmpDM:value="FFFFFF"/><rdf:li xmpDM:name="sidebarlocation" xmpDM:value="left"/><rdf:li xmpDM:name="endaction" xmpDM:value="stop"/><rdf:li xmpDM:name="endactionparam" xmpDM:value="true"/><rdf:li xmpDM:name="locale" xmpDM:value="en-US"/></rdf:Bag>\
+               </tscDM:parameters>\
+               <tscDM:controllerText>\
+                  <rdf:Bag>\
+                  </rdf:Bag>\
+               </tscDM:controllerText>\
+            </rdf:Description>\
+         </tscDM:controller>\
+         <tscDM:contentList>\
+            <rdf:Description>\
+               <tscDM:files>\
+                  <rdf:Seq>\
+                     <rdf:li xmpDM:name="0" xmpDM:value="Quotes_V2_Deposit_First_Frame.png"/><rdf:li xmpDM:name="1" xmpDM:value="Quotes_V2_Deposit_Thumbnails.png"/></rdf:Seq>\
+               </tscDM:files>\
+            </rdf:Description>\
+         </tscDM:contentList>\
+      </rdf:Description>\
+   </rdf:RDF>\
+</x:xmpmeta>';

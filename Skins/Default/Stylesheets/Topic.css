@@ -697,12 +697,14 @@ div.MCBreadcrumbsBox_main-section_0
 
 .dropDownHead
 {
+	font-family: Roboto;
 	text-decoration: none;
 }
 
 .dropDownBody
 {
 	margin-left: 16px;
+	font-family: Roboto;
 }
 
 .img.imgListImages_SmallImgs
@@ -719,22 +721,22 @@ div.MCBreadcrumbsBox_main-section_0
 {
 	color: #202a3e;
 	font-family: Homie;
-	font-size: 19px;
 	margin-top: 10px;
+	font-size: 19px;
 }
 
 .dropDownHotspot.dropDownHotspotHeading_2:link
 {
 	color: #202a3e;
 	font-family: Homie;
-	font-size: 19px;
 	margin-top: 10px;
+	font-size: 19px;
 }
 
 .MCDropDown_Open .MCDropDownHotSpot_.MCHotSpotImage.MCDropDownHotSpot_Heading_2
 {
 	background-position: left;
-	background-image: url('arrow-down-gray.png');
+	background-image: url('arrow-down-hiOrange.png');
 	padding-left: 0px;
 	padding-right: 0;
 }
@@ -742,7 +744,7 @@ div.MCBreadcrumbsBox_main-section_0
 .MCDropDown_Closed .MCDropDownHotSpot_.MCHotSpotImage.MCDropDownHotSpot_Heading_2
 {
 	background-position: left;
-	background-image: url('arrow-right-gray.png');
+	background-image: url('arrow-right-hiOrange.png');
 	padding-left: 0px;
 	padding-right: 0;
 }
@@ -754,15 +756,6 @@ div.MCBreadcrumbsBox_main-section_0
 	color: #202a3e;
 }
 
-.relatedTopics:link
-{
-	font-size: 14px;
-	margin-top: 6px;
-	font-weight: normal;
-	color: #202A3E;
-	font-family: Roboto;
-}
-
 video._0
 {
 	display: inline-block;
@@ -770,12 +763,32 @@ video._0
 	height: 385px;
 }
 
-.dropDown.dropDownNumList
+video._Mobile_Vids_0
 {
-	margin-left: 17px;
+	display: inline-block;
+	height: 350px;
+	width: 200px;
 }
 
-.MCDropDown_Open .MCDropDownHotSpot_.MCHotSpotImage.MCDropDownHotSpot_NumList
+.dropDownHotspot.dropDownHotspotBodyContent
+{
+	color: #202A3E;
+	font-weight: bold;
+}
+
+.dropDownHotspot.dropDownHotspotBodyContent:link
+{
+	color: #202A3E;
+	font-weight: bold;
+}
+
+.dropDown.dropDownVids_Last
+{
+	border-bottom: solid 1px #797f8b;
+	margin-bottom: 6px;
+}
+
+.MCDropDown_Open .MCDropDownHotSpot_.MCHotSpotImage.MCDropDownHotSpot_Vids_Last
 {
 	background-position: left;
 	background-image: url('arrow-down-gray.png');
@@ -783,12 +796,21 @@ video._0
 	padding-right: 0;
 }
 
-.MCDropDown_Closed .MCDropDownHotSpot_.MCHotSpotImage.MCDropDownHotSpot_NumList
+.MCDropDown_Closed .MCDropDownHotSpot_.MCHotSpotImage.MCDropDownHotSpot_Vids_Last
 {
 	background-position: left;
 	background-image: url('arrow-right-gray.png');
 	padding-left: 0px;
 	padding-right: 0;
+}
+
+.img.imgIntro
+{
+	padding-left: 6px;
+	padding-right: 6px;
+	padding-bottom: 6px;
+	width: 238px;
+	height: 513px;
 }
 
 .dropDownHotspot.dropDownHotspotLvl2
@@ -850,6 +872,27 @@ video._0
 }
 
 .MCDropDown_Closed .MCDropDownHotSpot_.MCHotSpotImage.MCDropDownHotSpot_Lvl2
+{
+	background-position: left;
+	background-image: url('arrow-right-gray.png');
+	padding-left: 0px;
+	padding-right: 0;
+}
+
+.dropDown.dropDownNumList
+{
+	margin-left: 17px;
+}
+
+.MCDropDown_Open .MCDropDownHotSpot_.MCHotSpotImage.MCDropDownHotSpot_NumList
+{
+	background-position: left;
+	background-image: url('arrow-down-gray.png');
+	padding-left: 0px;
+	padding-right: 0;
+}
+
+.MCDropDown_Closed .MCDropDownHotSpot_.MCHotSpotImage.MCDropDownHotSpot_NumList
 {
 	background-position: left;
 	background-image: url('arrow-right-gray.png');
