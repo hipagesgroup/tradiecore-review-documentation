@@ -83,13 +83,13 @@
     <body>
         <div class="foundation-wrap off-canvas-wrapper">
             <div class="off-canvas-wrapper-inner" data-off-canvas-wrapper="">
-                <aside class="off-canvas position-right" role="complementary" id="offCanvas" data-off-canvas="" data-position="right" data-mc-ignore="true">
-                    <ul class="off-canvas-drilldown vertical menu off-canvas-list" data-drilldown="" data-mc-back-link="Back" data-mc-css-tree-node-expanded="is-drilldown-submenu-parent" data-mc-css-tree-node-collapsed="is-drilldown-submenu-parent" data-mc-css-sub-menu="vertical menu slide-in-right is-drilldown-submenu" data-mc-include-indicator="False" data-mc-include-icon="False" data-mc-include-parent-link="True" data-mc-include-back="True" data-mc-defer-expand-event="True" data-mc-expand-event="click.zf.drilldown" data-mc-toc="True">
+                <aside class="off-canvas position-left" role="complementary" id="offCanvas" data-off-canvas="" data-position="left" data-mc-ignore="true">
+                    <ul class="off-canvas-drilldown vertical menu off-canvas-list" data-drilldown="" data-mc-back-link="Back" data-mc-css-tree-node-expanded="is-drilldown-submenu-parent" data-mc-css-tree-node-collapsed="is-drilldown-submenu-parent" data-mc-css-sub-menu="vertical menu slide-in-left is-drilldown-submenu" data-mc-include-indicator="False" data-mc-include-icon="False" data-mc-include-parent-link="True" data-mc-include-back="True" data-mc-defer-expand-event="True" data-mc-expanded-event="open.zf.drilldown closed.zf.drilldown" data-mc-expand-event="click.zf.drilldown" data-mc-toc="True">
                     </ul>
                 </aside>
                 <div class="off-canvas-content inner-wrap" data-off-canvas-content="">
-                    <div>
-                        <nav class="title-bar tab-bar" aria-label="Main navigation and search" data-mc-ignore="true"><a class="skip-to-content fluid-skip showOnFocus" href="#">Skip To Main Content</a>
+                    <div data-sticky-container="" class="title-bar-container">
+                        <nav class="title-bar tab-bar sticky" aria-label="Main navigation and search" data-sticky="" data-options="marginTop:0" style="width:100%" data-sticky-on="small" data-mc-ignore="true"><a class="skip-to-content fluid-skip showOnFocus" href="#">Skip To Main Content</a>
                             <div class="middle title-bar-section outer-row clearfix">
                                 <div class="menu-icon-container relative clearfix">
                                     <div class="central-account-wrapper">
@@ -104,11 +104,21 @@
                                 </div>
                             </div>
                             <div class="title-bar-layout outer-row">
-                                <div class="logo-wrapper"><a class="logo" href="../../Web-hipagestradiecoreHome.htm" alt="Logo"></a>
+                                <div class="logo-wrapper"><a class="logo" href="../../hipagestradiecoreHome.htm" alt="Logo"></a>
                                 </div>
                                 <div class="navigation-wrapper nocontent">
                                     <ul class="navigation clearfix" data-mc-css-tree-node-has-children="has-children" data-mc-css-sub-menu="sub-menu" data-mc-expand-event="mouseenter" data-mc-top-nav-menu="True" data-mc-max-depth="5" data-mc-include-icon="False" data-mc-include-indicator="False" data-mc-include-children="True" data-mc-include-siblings="True" data-mc-include-parent="True" data-mc-toc="True">
-                                        <li class="placeholder" style="visibility:hidden"><a>placeholder</a>
+                                        <li class="tree-node tree-node-preloaded has-children"><a href="../../W - Introduction/Getting Started_Intro.htm">Intro</a>
+                                        </li>
+                                        <li class="tree-node tree-node-preloaded has-children"><a href="../../W - Leads/Leads_Intro.htm">Leads</a>
+                                        </li>
+                                        <li class="tree-node tree-node-preloaded has-children"><a href="../../W - Jobs/Jobs_Intro.htm">Jobs</a>
+                                        </li>
+                                        <li class="tree-node tree-node-preloaded has-children"><a href="../../W - Quotes/Quotes_Intro.htm">Quotes</a>
+                                        </li>
+                                        <li class="tree-node tree-node-preloaded has-children"><a href="../../W - Invoices/Invoices_Intro.htm">Invoices</a>
+                                        </li>
+                                        <li class="tree-node tree-node-preloaded has-children"><a href="../../W - Settings/Settings_Intro.htm">Settings</a>
                                         </li>
                                     </ul>
                                 </div>
@@ -151,7 +161,7 @@
                         <div class="row outer-row sidenav-layout">
                             <nav class="sidenav-wrapper">
                                 <div class="sidenav-container">
-                                    <ul class="off-canvas-accordion vertical menu sidenav" data-accordion-menu="" data-mc-css-tree-node-expanded="is-accordion-submenu-parent" data-mc-css-tree-node-collapsed="is-accordion-submenu-parent" data-mc-css-sub-menu="vertical menu accordion-menu is-accordion-submenu nested" data-mc-include-indicator="False" data-mc-include-icon="False" data-mc-include-parent-link="False" data-mc-include-back="False" data-mc-defer-expand-event="True" data-mc-expand-event="click.zf.accordionMenu" data-mc-toc="True" data-mc-side-nav-menu="True">
+                                    <ul class="off-canvas-accordion vertical menu sidenav" data-accordion-menu="" data-mc-css-tree-node-expanded="is-accordion-submenu-parent" data-mc-css-tree-node-collapsed="is-accordion-submenu-parent" data-mc-css-sub-menu="vertical menu accordion-menu is-accordion-submenu nested" data-mc-include-indicator="False" data-mc-include-icon="False" data-mc-include-parent-link="False" data-mc-include-back="False" data-mc-defer-expand-event="True" data-mc-expanded-event="down.zf.accordionMenu up.zf.accordionMenu" data-mc-expand-event="click.zf.accordionMenu" data-mc-toc="True" data-mc-side-nav-menu="True">
                                     </ul>
                                 </div>
                             </nav>
@@ -163,15 +173,15 @@
                                             <div>
                                                 <div role="main" id="mc-main-content">
                                                     <h1 class="BodyContent">Tap to Pay</h1>
-                                                    <p class="Body">Introducing Tap to Pay in <span class="mc-variable General.ProductName1 variable">hipages tradiecore</span>. You can now effortlessly accept payments directly from your customers using your mobile device. With Tap to Pay, you no longer need to wait for customers to pay through digital links on invoices. Instead, payments are processed instantly as your customers tap their mobile device or card on your device.</p>
-                                                    <p class="Body">This new feature gives you a simpler, faster, and more secure payment method, streamlining how you receive payments. It makes getting paid quicker and easier, reducing admin hassle and improving your cash flow. Tap to Pay helps you focus more on work and less on chasing payments, giving you a smoother experience from both a business and admin standpoint.</p>
+                                                    <p class="Body">Tap to Pay in <span class="mc-variable General.ProductName1 variable">hipages tradiecore</span> lets you accept payments from your customers instantly right from your mobile device. Customers can pay by tapping their card or mobile wallet on your phone, and the payment is processed on the spot.</p>
+                                                    <p class="Body">It’s a simple, secure, and contactless way to get paid that helps reduce admin time and improves your cash flow. With Tap to Pay, there’s no need to wait for digital payment links or bank transfers, you can take care of payments before leaving the job site.</p>
                                                     <h2 class="BodyContent">Enabling Tap to Pay</h2>
                                                     <ol class="NumberedList">
                                                         <li class="NumberedList" value="1">
-                                                            <p class="Lvl1_NumList">Tap to Pay can be enabled in the following methods: </p>
+                                                            <p class="Lvl1_NumList">You can enabl Tap to Pay in any of the following methods: </p>
                                                             <ul class="NumList_BulletList">
                                                                 <li class="NumberedList">
-                                                                    <p class="Lvl1_NumList">Selecting the Tap-to-Pay message on the <b class="BodyBold">To Do</b> screen. </p>
+                                                                    <p class="Lvl1_NumList">From the <b class="BodyBold">To Do</b> screen, select the Tap to Pay message. </p>
                                                                     <table style="width: 100%;mc-table-style: url('../../Resources/Tablestyles/Images.css');" class="TableStyle-Images" cellspacing="0">
                                                                         <col class="TableStyle-Images-Column-Column1" />
                                                                         <col class="TableStyle-Images-Column-Column2" />
@@ -196,7 +206,7 @@
                                                                     </table>
                                                                 </li>
                                                                 <li class="NumberedList">
-                                                                    <p class="Lvl1_NumList">Selecting the enable Tap to Pay option in the Digital payments section of an invoice. </p>
+                                                                    <p class="Lvl1_NumList">From an invoice, go to the <i class="ui_names">Digital Payments</i> section and select <b class="BodyBold">Enable Tap to Pay</b>.  </p>
                                                                     <table style="width: 100%;mc-table-style: url('../../Resources/Tablestyles/Images.css');" class="TableStyle-Images" cellspacing="0">
                                                                         <col class="TableStyle-Images-Column-Column1" />
                                                                         <col class="TableStyle-Images-Column-Column2" />
@@ -221,7 +231,7 @@
                                                                     </table>
                                                                 </li>
                                                                 <li class="NumberedList">
-                                                                    <p class="Lvl1_NumList">Selecting <b class="BodyBold">Profile <img src="../../Resources/A_Images/Intro&amp;Common Images/Person_20x17.png" style="width: 20;height: 17;" />  → My Business → Quotes &amp;&#160;Invoices Settings</b>, and selecting the <b class="BodyBold">Tap to Pay</b> option. </p>
+                                                                    <p class="Lvl1_NumList">Go to <b class="BodyBold">Profile <img src="../../Resources/A_Images/Intro&amp;Common Images/Person_20x17.png" style="width: 20;height: 17;" />  → My Business → Quotes &amp;&#160;Invoices Settings</b>, and select the <b class="BodyBold">Tap to Pay</b> option. </p>
                                                                     <table style="width: 100%;mc-table-style: url('../../Resources/Tablestyles/Images.css');" class="TableStyle-Images" cellspacing="0">
                                                                         <col class="TableStyle-Images-Column-Column1" />
                                                                         <col class="TableStyle-Images-Column-Column2" />
@@ -248,7 +258,7 @@
                                                             </ul>
                                                         </li>
                                                         <li class="NumberedList" value="2">
-                                                            <p class="Lvl1_NumList">Then select the appropriate option based on your device:</p>
+                                                            <p class="Lvl1_NumList">Then, complete the setup based on your device:</p>
                                                             <ul class="NumList_BulletList">
                                                                 <li class="NumberedList">
                                                                     <p class="Lvl1_NumList">On iPhone, select <b class="BodyBold">Enable Tap to Pay on iPhone</b>.</p>
@@ -283,13 +293,18 @@
                                                             <p class="Note_Heading">Note:</p>
                                                             <p class="Note_Body_Border">On Android devices, you’ll be prompted to grant location permissions, including access to your device’s location and nearby devices. Select Allow for both prompts to continue.</p>
                                                         </li>
-                                                        <li class="NumberedList" value="3">
-                                                            <p class="Lvl1_NumList">To accept a payment from your customer, select the Tap to Pay option in the Payments methods section of your invoice and hold out your device to your customer.</p>
+                                                    </ol>
+                                                    <h2 class="BodyContent">Accepting Payment</h2>
+                                                    <p class="BodyBeforeList">Once Tap to Pay is enabled,</p>
+                                                    <ol class="NumberedList">
+                                                        <li class="NumberedList" value="1">
+                                                            <p class="Lvl1_NumList">Open the invoice and select <b class="BodyBold">Tap to Pay</b> under <i class="ui_names">Payments methods</i>.</p>
                                                             <p class="Lvl1_NumList"><a class="MCPopupThumbnailLink MCPopupThumbnailPopup" href="../../Resources/A_Images/Integrations/TtoP-Accept_Payment.png"><img class="MCPopupThumbnail img imgListImages" data-mc-width="375" data-mc-height="1655" src="../../Resources/A_Images/Integrations/TtoP-Accept_Payment.png" title="Accept Tap to Pay" tabindex="" style="max-height: 170px;" /></a>
                                                             </p>
                                                         </li>
-                                                        <li class="NumberedList" value="4">
-                                                            <p class="Lvl1_NumList">Your customer will have to tap their preferred payment method on your device. Once payment has been successfully processed the following confirmation message will be displayed and you will be shown the Job Details screen.</p>
+                                                        <li class="NumberedList" value="2">
+                                                            <p class="Lvl1_NumList">Hold out your device for your customer to tap their card or mobile wallet.</p>
+                                                            <p class="Lvl1_NumList">When the payment is successfully processed, a confirmation message will appear and you’ll be taken to the <i class="ui_names">Job Details</i> screen.</p>
                                                             <p class="Lvl1_NumList1_Last"><a class="MCPopupThumbnailLink MCPopupThumbnailPopup" href="../../Resources/A_Images/Integrations/TtoP- Payment_Success.png"><img class="MCPopupThumbnail img imgListImages" data-mc-width="375" data-mc-height="812" src="../../Resources/A_Images/Integrations/TtoP- Payment_Success.png" title="Received Payment screen" tabindex="" style="max-height: 170px;" /></a>
                                                             </p>
                                                             <p class="Lvl1_NumList">To troubleshoot Tap to Pay on your Apple device see: </p>

@@ -70,10 +70,15 @@
 		max-height: 200px;
 	}
 
+	.featured-snippets-container
+	{
+		
+	}
+
 	.central-dropdown
 	{
-		left: auto;
-		right: 35px;
+		left: 35px;
+		right: auto;
 	}
 
 	.central-dropdown .central-account-drop
@@ -100,8 +105,8 @@
 	.central-dropdown-content
 	{
 		margin-right: 0px;
-		left: auto;
-		right: -25px;
+		left: -25px;
+		right: auto;
 		background-color: #ffffff;
 	}
 
@@ -293,11 +298,6 @@
 	.central-separator
 	{
 		background-color: #D5D8DA;
-	}
-
-	.featured-snippets-container
-	{
-		
 	}
 
 	.off-canvas-wrapper-inner nav.title-bar .outer-row
@@ -858,8 +858,8 @@
 	nav.title-bar .menu-icon
 	{
 		display: block;
-		left: auto;
-		right: -13px;
+		left: -13px;
+		right: auto;
 	}
 
 	.search-auto-complete ul

@@ -82,13 +82,13 @@
     <body>
         <div class="foundation-wrap off-canvas-wrapper">
             <div class="off-canvas-wrapper-inner" data-off-canvas-wrapper="">
-                <aside class="off-canvas position-right" role="complementary" id="offCanvas" data-off-canvas="" data-position="right" data-mc-ignore="true">
-                    <ul class="off-canvas-drilldown vertical menu off-canvas-list" data-drilldown="" data-mc-back-link="Back" data-mc-css-tree-node-expanded="is-drilldown-submenu-parent" data-mc-css-tree-node-collapsed="is-drilldown-submenu-parent" data-mc-css-sub-menu="vertical menu slide-in-right is-drilldown-submenu" data-mc-include-indicator="False" data-mc-include-icon="False" data-mc-include-parent-link="True" data-mc-include-back="True" data-mc-defer-expand-event="True" data-mc-expand-event="click.zf.drilldown" data-mc-toc="True">
+                <aside class="off-canvas position-left" role="complementary" id="offCanvas" data-off-canvas="" data-position="left" data-mc-ignore="true">
+                    <ul class="off-canvas-drilldown vertical menu off-canvas-list" data-drilldown="" data-mc-back-link="Back" data-mc-css-tree-node-expanded="is-drilldown-submenu-parent" data-mc-css-tree-node-collapsed="is-drilldown-submenu-parent" data-mc-css-sub-menu="vertical menu slide-in-left is-drilldown-submenu" data-mc-include-indicator="False" data-mc-include-icon="False" data-mc-include-parent-link="True" data-mc-include-back="True" data-mc-defer-expand-event="True" data-mc-expanded-event="open.zf.drilldown closed.zf.drilldown" data-mc-expand-event="click.zf.drilldown" data-mc-toc="True">
                     </ul>
                 </aside>
                 <div class="off-canvas-content inner-wrap" data-off-canvas-content="">
-                    <div>
-                        <nav class="title-bar tab-bar" aria-label="Main navigation and search" data-mc-ignore="true"><a class="skip-to-content fluid-skip showOnFocus" href="#">Skip To Main Content</a>
+                    <div data-sticky-container="" class="title-bar-container">
+                        <nav class="title-bar tab-bar sticky" aria-label="Main navigation and search" data-sticky="" data-options="marginTop:0" style="width:100%" data-sticky-on="small" data-mc-ignore="true"><a class="skip-to-content fluid-skip showOnFocus" href="#">Skip To Main Content</a>
                             <div class="middle title-bar-section outer-row clearfix">
                                 <div class="menu-icon-container relative clearfix">
                                     <div class="central-account-wrapper">
@@ -103,11 +103,21 @@
                                 </div>
                             </div>
                             <div class="title-bar-layout outer-row">
-                                <div class="logo-wrapper"><a class="logo" href="../Web-hipagestradiecoreHome.htm" alt="Logo"></a>
+                                <div class="logo-wrapper"><a class="logo" href="../hipagestradiecoreHome.htm" alt="Logo"></a>
                                 </div>
                                 <div class="navigation-wrapper nocontent">
                                     <ul class="navigation clearfix" data-mc-css-tree-node-has-children="has-children" data-mc-css-sub-menu="sub-menu" data-mc-expand-event="mouseenter" data-mc-top-nav-menu="True" data-mc-max-depth="5" data-mc-include-icon="False" data-mc-include-indicator="False" data-mc-include-children="True" data-mc-include-siblings="True" data-mc-include-parent="True" data-mc-toc="True">
-                                        <li class="placeholder" style="visibility:hidden"><a>placeholder</a>
+                                        <li class="tree-node tree-node-preloaded has-children"><a href="../W - Introduction/Getting Started_Intro.htm">Intro</a>
+                                        </li>
+                                        <li class="tree-node tree-node-preloaded has-children"><a href="../W - Leads/Leads_Intro.htm">Leads</a>
+                                        </li>
+                                        <li class="tree-node tree-node-preloaded has-children"><a href="../W - Jobs/Jobs_Intro.htm">Jobs</a>
+                                        </li>
+                                        <li class="tree-node tree-node-preloaded has-children"><a href="../W - Quotes/Quotes_Intro.htm">Quotes</a>
+                                        </li>
+                                        <li class="tree-node tree-node-preloaded has-children"><a href="../W - Invoices/Invoices_Intro.htm">Invoices</a>
+                                        </li>
+                                        <li class="tree-node tree-node-preloaded has-children"><a href="../W - Settings/Settings_Intro.htm">Settings</a>
                                         </li>
                                     </ul>
                                 </div>
@@ -150,7 +160,7 @@
                         <div class="row outer-row sidenav-layout">
                             <nav class="sidenav-wrapper">
                                 <div class="sidenav-container">
-                                    <ul class="off-canvas-accordion vertical menu sidenav" data-accordion-menu="" data-mc-css-tree-node-expanded="is-accordion-submenu-parent" data-mc-css-tree-node-collapsed="is-accordion-submenu-parent" data-mc-css-sub-menu="vertical menu accordion-menu is-accordion-submenu nested" data-mc-include-indicator="False" data-mc-include-icon="False" data-mc-include-parent-link="False" data-mc-include-back="False" data-mc-defer-expand-event="True" data-mc-expand-event="click.zf.accordionMenu" data-mc-toc="True" data-mc-side-nav-menu="True">
+                                    <ul class="off-canvas-accordion vertical menu sidenav" data-accordion-menu="" data-mc-css-tree-node-expanded="is-accordion-submenu-parent" data-mc-css-tree-node-collapsed="is-accordion-submenu-parent" data-mc-css-sub-menu="vertical menu accordion-menu is-accordion-submenu nested" data-mc-include-indicator="False" data-mc-include-icon="False" data-mc-include-parent-link="False" data-mc-include-back="False" data-mc-defer-expand-event="True" data-mc-expanded-event="down.zf.accordionMenu up.zf.accordionMenu" data-mc-expand-event="click.zf.accordionMenu" data-mc-toc="True" data-mc-side-nav-menu="True">
                                     </ul>
                                 </div>
                             </nav>
@@ -163,17 +173,17 @@
                                                 <div role="main" id="mc-main-content">
                                                     <h1 class="BodyContent">Adding an appointment to a job</h1>
                                                     <p class="Body">The appointment feature helps you stay organised by showing all your scheduled tasks and appointments for the day at a glance. It makes it easier to manage your time and stay on top of your workload. It’s a simple way to manage your time and avoid double-booking.</p>
-                                                    <p class="BodyBeforeList">Follow the steps listed here to add an appointment to a job. </p>
+                                                    <p class="BodyBeforeList">Follow the steps listed here to add an appointment to a job:</p>
                                                     <ol class="NumberedList">
                                                         <li class="NumberedList" value="1">
-                                                            <p class="Lvl1_NumList">In the <b class="BodyBold">Appointments</b> section of a job, tap the add icon <img src="../Resources/A_Images/Intro&amp;Common Images/Add_Button_2.4_27x27.png" title="Add appointment" style="vertical-align: baseline;width: 27;height: 27;" />. </p>
-                                                            <p class="Lvl1_NumList">This opens your weekly<i class="ui_names"> Schedule</i> view, with the current day displayed by default.</p>
-                                                            <p class="Lvl1_NumList"><a class="MCPopupThumbnailLink MCPopupThumbnailPopup" href="../Resources/A_Images/Jobs/Schedule - 9.11.0.png" data-mc-popup-alt="Schedule screen"><img class="MCPopupThumbnail img imgListImages" data-mc-width="1344" data-mc-height="2827" src="../Resources/A_Images/Jobs/Schedule - 9.11.0.png" alt="Schedule screen" title="Schedule screen" tabindex="" style="max-height: 170px;" /></a>
+                                                            <p class="Lvl1_NumList">Select the <b class="BodyBold">Create appointment</b> option on the job screen. </p>
+                                                            <p class="Lvl1_NumList">This opens your weekly <i class="ui_names">Schedule</i> view, with the current day displayed by default.</p>
+                                                            <p class="Lvl1_NumList"><a class="MCPopupThumbnailLink MCPopupThumbnailPopup" href="../Resources/A_Images/Jobs/Schedule_2.15.0.png"><img class="MCPopupThumbnail img imgListImages" data-mc-width="1344" data-mc-height="2857" src="../Resources/A_Images/Jobs/Schedule_2.15.0.png" title="Schedule screen" tabindex="" style="max-height: 170px;" /></a>
                                                             </p>
                                                         </li>
                                                         <li class="NumberedList" value="2">
-                                                            <p class="Lvl1_NumList">Choose the date you want to schedule the appointment for, then press and hold your preferred time slot. </p>
-                                                            <p class="Lvl1_NumList">This opens the Appointment screen with the following fields pre-filled:</p>
+                                                            <p class="Lvl1_NumList">Choose the date you want to schedule the appointment for, then press and hold your preferred time slot or select add <img src="../Resources/A_Images/Intro&amp;Common Images/Add_Button_2.4_27x27.png" title="add icon" style="vertical-align: baseline;width: 27;height: 27;" /> . </p>
+                                                            <p class="Lvl1_NumList">This opens the <i class="ui_names">Appointment</i> screen with the following fields pre-filled:</p>
                                                             <ul class="NumList_BulletList">
                                                                 <li class="NumberedList">
                                                                     <p class="Lvl1_NumList">Location</p>
@@ -191,10 +201,13 @@
                                                                     <p class="Lvl1_NumList">End date and time </p>
                                                                 </li>
                                                                 <li class="NumberedList">
+                                                                    <p class="Lvl1_NumList"><a href="Appt_Noti_Remin.htm">Notify me</a> - set personal reminders</p>
+                                                                </li>
+                                                                <li class="NumberedList">
                                                                     <p class="Lvl1_NumList">Associated Job</p>
                                                                 </li>
                                                             </ul>
-                                                            <p class="Lvl1_NumList"><a class="MCPopupThumbnailLink MCPopupThumbnailPopup" href="../Resources/A_Images/Jobs/Appointment - 2.11.0.png" data-mc-popup-alt="Appointment Screen"><img class="MCPopupThumbnail img imgListImages" data-mc-width="1344" data-mc-height="2850" src="../Resources/A_Images/Jobs/Appointment - 2.11.0.png" alt="Appointment Screen" title="Appointment Screen" tabindex="" style="max-height: 170px;" /></a>
+                                                            <p class="Lvl1_NumList"><a class="MCPopupThumbnailLink MCPopupThumbnailPopup" href="../Resources/A_Images/Jobs/Appointment_2.25.0.png" data-mc-popup-alt="Appointment Screen"><img class="MCPopupThumbnail img imgListImages" data-mc-width="1344" data-mc-height="2864" src="../Resources/A_Images/Jobs/Appointment_2.25.0.png" alt="Appointment Screen" title="Appointment Screen" tabindex="" style="max-height: 170px;" /></a>
                                                             </p>
                                                             <p class="Note_Heading">Note:&#160;</p>
                                                             <p class="Note_Body_Border">By default the allocated duration for an appointment is 30 minutes. </p>
@@ -203,13 +216,13 @@
                                                             <p class="Lvl1_NumList">Choose the appointment type by selecting one of the following options at the top of the screen: </p>
                                                             <ul class="NumList_BulletList">
                                                                 <li class="NumberedList">
-                                                                    <p class="Lvl1_NumList">Quote inspection</p>
+                                                                    <p class="Lvl1_NumList">Quote inspection - Use this for site visits where you’re assessing the job before preparing a quote for the customer.</p>
                                                                 </li>
                                                                 <li class="NumberedList">
-                                                                    <p class="Lvl1_NumList">Job on Site </p>
+                                                                    <p class="Lvl1_NumList">Job on Site - Select this when you're scheduled to carry out work on the job site.</p>
                                                                 </li>
                                                                 <li class="NumberedList">
-                                                                    <p class="Lvl1_NumList">Task </p>
+                                                                    <p class="Lvl1_NumList">Task - Choose this for other job-related tasks such as picking up materials, dropping off equipment, or handling admin. </p>
                                                                 </li>
                                                             </ul>
                                                         </li>
@@ -221,14 +234,19 @@
                                                             <p class="Lvl1_NumList">Then select <b class="BodyBold">Apply</b>.</p>
                                                         </li>
                                                         <li class="NumberedList" value="5">
-                                                            <p class="Lvl1_NumList">When all appointment details are confirmed, select <b class="BodyBold">Done</b> to save it to your schedule.</p>
+                                                            <p class="Lvl1_NumList1_Last">When all appointment details are confirmed, select <b class="BodyBold">Done</b> to save it to your schedule.</p>
                                                         </li>
                                                     </ol>
+                                                    <p class="Body">Once you’ve added an appointment, you can keep your customers updated with notifications and reminders. Find out how in <a href="Appt_Noti_Remin.htm" class="MCXref xref">Enabling appointment notifications and reminders</a>.</p>
                                                     <div class="MCHelpControl MCHelpControl-Related relatedTopics" style="mc-help-control-display: list;mc-use-custom-sort-order: true;"><span class="MCHelpControl-RelatedHotSpot_"><img class="MCHelpControl_Image_Icon" src="../../Skins/Default/Stylesheets/Images/transparent.gif" height="16" width="16" alt="Related Topics Link Icon" />Related Topics</span>
                                                         <ul class="MCHelpControlList MCRelatedTopicsControlList">
                                                             <li class="MCHelpControlListItem MCRelatedTopicsControlListItem"><a class="MCHelpControlListItemLink MCRelatedTopicsControlListItemLink" href="../A_Introduction Topics/Calendar_Intro.htm">Access your Schedule from the To Do screen</a>
                                                             </li>
                                                             <li class="MCHelpControlListItem MCRelatedTopicsControlListItem"><a class="MCHelpControlListItemLink MCRelatedTopicsControlListItemLink" href="../A_Introduction Topics/Calendar_Navigation.htm">Navigating your calendar</a>
+                                                            </li>
+                                                            <li class="MCHelpControlListItem MCRelatedTopicsControlListItem"><a class="MCHelpControlListItemLink MCRelatedTopicsControlListItemLink" href="Appt_Noti_Remin.htm">Enabling appointment notifications and reminders</a>
+                                                            </li>
+                                                            <li class="MCHelpControlListItem MCRelatedTopicsControlListItem"><a class="MCHelpControlListItemLink MCRelatedTopicsControlListItemLink" href="Add_Appt_DeviceCal.htm">Adding individual appointments to your device calendar</a>
                                                             </li>
                                                         </ul>
                                                     </div>

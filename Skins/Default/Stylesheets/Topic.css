@@ -715,6 +715,7 @@ div.MCBreadcrumbsBox_main-section_0
 .dropDown.dropDownHeading_2
 {
 	margin-top: 10px;
+	font-family: Homie;
 }
 
 .dropDownHotspot.dropDownHotspotHeading_2
@@ -756,13 +757,6 @@ div.MCBreadcrumbsBox_main-section_0
 	color: #202a3e;
 }
 
-video._0
-{
-	display: inline-block;
-	width: 339px;
-	height: 385px;
-}
-
 video._Mobile_Vids_0
 {
 	display: inline-block;
@@ -797,6 +791,27 @@ video._Mobile_Vids_0
 }
 
 .MCDropDown_Closed .MCDropDownHotSpot_.MCHotSpotImage.MCDropDownHotSpot_Vids_Last
+{
+	background-position: left;
+	background-image: url('arrow-right-gray.png');
+	padding-left: 0px;
+	padding-right: 0;
+}
+
+.dropDown.dropDownNumList
+{
+	margin-left: 17px;
+}
+
+.MCDropDown_Open .MCDropDownHotSpot_.MCHotSpotImage.MCDropDownHotSpot_NumList
+{
+	background-position: left;
+	background-image: url('arrow-down-gray.png');
+	padding-left: 0px;
+	padding-right: 0;
+}
+
+.MCDropDown_Closed .MCDropDownHotSpot_.MCHotSpotImage.MCDropDownHotSpot_NumList
 {
 	background-position: left;
 	background-image: url('arrow-right-gray.png');
@@ -872,27 +887,6 @@ video._Mobile_Vids_0
 }
 
 .MCDropDown_Closed .MCDropDownHotSpot_.MCHotSpotImage.MCDropDownHotSpot_Lvl2
-{
-	background-position: left;
-	background-image: url('arrow-right-gray.png');
-	padding-left: 0px;
-	padding-right: 0;
-}
-
-.dropDown.dropDownNumList
-{
-	margin-left: 17px;
-}
-
-.MCDropDown_Open .MCDropDownHotSpot_.MCHotSpotImage.MCDropDownHotSpot_NumList
-{
-	background-position: left;
-	background-image: url('arrow-down-gray.png');
-	padding-left: 0px;
-	padding-right: 0;
-}
-
-.MCDropDown_Closed .MCDropDownHotSpot_.MCHotSpotImage.MCDropDownHotSpot_NumList
 {
 	background-position: left;
 	background-image: url('arrow-right-gray.png');

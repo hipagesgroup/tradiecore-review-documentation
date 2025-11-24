@@ -83,13 +83,13 @@
     <body>
         <div class="foundation-wrap off-canvas-wrapper">
             <div class="off-canvas-wrapper-inner" data-off-canvas-wrapper="">
-                <aside class="off-canvas position-right" role="complementary" id="offCanvas" data-off-canvas="" data-position="right" data-mc-ignore="true">
-                    <ul class="off-canvas-drilldown vertical menu off-canvas-list" data-drilldown="" data-mc-back-link="Back" data-mc-css-tree-node-expanded="is-drilldown-submenu-parent" data-mc-css-tree-node-collapsed="is-drilldown-submenu-parent" data-mc-css-sub-menu="vertical menu slide-in-right is-drilldown-submenu" data-mc-include-indicator="False" data-mc-include-icon="False" data-mc-include-parent-link="True" data-mc-include-back="True" data-mc-defer-expand-event="True" data-mc-expand-event="click.zf.drilldown" data-mc-toc="True">
+                <aside class="off-canvas position-left" role="complementary" id="offCanvas" data-off-canvas="" data-position="left" data-mc-ignore="true">
+                    <ul class="off-canvas-drilldown vertical menu off-canvas-list" data-drilldown="" data-mc-back-link="Back" data-mc-css-tree-node-expanded="is-drilldown-submenu-parent" data-mc-css-tree-node-collapsed="is-drilldown-submenu-parent" data-mc-css-sub-menu="vertical menu slide-in-left is-drilldown-submenu" data-mc-include-indicator="False" data-mc-include-icon="False" data-mc-include-parent-link="True" data-mc-include-back="True" data-mc-defer-expand-event="True" data-mc-expanded-event="open.zf.drilldown closed.zf.drilldown" data-mc-expand-event="click.zf.drilldown" data-mc-toc="True">
                     </ul>
                 </aside>
                 <div class="off-canvas-content inner-wrap" data-off-canvas-content="">
-                    <div>
-                        <nav class="title-bar tab-bar" aria-label="Main navigation and search" data-mc-ignore="true"><a class="skip-to-content fluid-skip showOnFocus" href="#">Skip To Main Content</a>
+                    <div data-sticky-container="" class="title-bar-container">
+                        <nav class="title-bar tab-bar sticky" aria-label="Main navigation and search" data-sticky="" data-options="marginTop:0" style="width:100%" data-sticky-on="small" data-mc-ignore="true"><a class="skip-to-content fluid-skip showOnFocus" href="#">Skip To Main Content</a>
                             <div class="middle title-bar-section outer-row clearfix">
                                 <div class="menu-icon-container relative clearfix">
                                     <div class="central-account-wrapper">
@@ -104,11 +104,21 @@
                                 </div>
                             </div>
                             <div class="title-bar-layout outer-row">
-                                <div class="logo-wrapper"><a class="logo" href="../../Web-hipagestradiecoreHome.htm" alt="Logo"></a>
+                                <div class="logo-wrapper"><a class="logo" href="../../hipagestradiecoreHome.htm" alt="Logo"></a>
                                 </div>
                                 <div class="navigation-wrapper nocontent">
                                     <ul class="navigation clearfix" data-mc-css-tree-node-has-children="has-children" data-mc-css-sub-menu="sub-menu" data-mc-expand-event="mouseenter" data-mc-top-nav-menu="True" data-mc-max-depth="5" data-mc-include-icon="False" data-mc-include-indicator="False" data-mc-include-children="True" data-mc-include-siblings="True" data-mc-include-parent="True" data-mc-toc="True">
-                                        <li class="placeholder" style="visibility:hidden"><a>placeholder</a>
+                                        <li class="tree-node tree-node-preloaded has-children"><a href="../../W - Introduction/Getting Started_Intro.htm">Intro</a>
+                                        </li>
+                                        <li class="tree-node tree-node-preloaded has-children"><a href="../../W - Leads/Leads_Intro.htm">Leads</a>
+                                        </li>
+                                        <li class="tree-node tree-node-preloaded has-children"><a href="../../W - Jobs/Jobs_Intro.htm">Jobs</a>
+                                        </li>
+                                        <li class="tree-node tree-node-preloaded has-children"><a href="../../W - Quotes/Quotes_Intro.htm">Quotes</a>
+                                        </li>
+                                        <li class="tree-node tree-node-preloaded has-children"><a href="../../W - Invoices/Invoices_Intro.htm">Invoices</a>
+                                        </li>
+                                        <li class="tree-node tree-node-preloaded has-children"><a href="../../W - Settings/Settings_Intro.htm">Settings</a>
                                         </li>
                                     </ul>
                                 </div>
@@ -151,7 +161,7 @@
                         <div class="row outer-row sidenav-layout">
                             <nav class="sidenav-wrapper">
                                 <div class="sidenav-container">
-                                    <ul class="off-canvas-accordion vertical menu sidenav" data-accordion-menu="" data-mc-css-tree-node-expanded="is-accordion-submenu-parent" data-mc-css-tree-node-collapsed="is-accordion-submenu-parent" data-mc-css-sub-menu="vertical menu accordion-menu is-accordion-submenu nested" data-mc-include-indicator="False" data-mc-include-icon="False" data-mc-include-parent-link="False" data-mc-include-back="False" data-mc-defer-expand-event="True" data-mc-expand-event="click.zf.accordionMenu" data-mc-toc="True" data-mc-side-nav-menu="True">
+                                    <ul class="off-canvas-accordion vertical menu sidenav" data-accordion-menu="" data-mc-css-tree-node-expanded="is-accordion-submenu-parent" data-mc-css-tree-node-collapsed="is-accordion-submenu-parent" data-mc-css-sub-menu="vertical menu accordion-menu is-accordion-submenu nested" data-mc-include-indicator="False" data-mc-include-icon="False" data-mc-include-parent-link="False" data-mc-include-back="False" data-mc-defer-expand-event="True" data-mc-expanded-event="down.zf.accordionMenu up.zf.accordionMenu" data-mc-expand-event="click.zf.accordionMenu" data-mc-toc="True" data-mc-side-nav-menu="True">
                                     </ul>
                                 </div>
                             </nav>
@@ -163,7 +173,8 @@
                                             <div>
                                                 <div role="main" id="mc-main-content">
                                                     <h1 class="BodyContent">Quotes and Invoices Settings</h1>
-                                                    <p class="Body_Bottom_Space">This is where you <a href="Payment_Terms.htm">set up your payment terms</a>, preferred payment methods, business address, and the <a href="../Payments/Terms_Conditions.htm">terms and conditions</a> related to quotes and invoices.</p>
+                                                    <p class="Body">The Quotes and Invoices Settings screen is where you can manage how your business handles quotes, invoices, and payments.</p>
+                                                    <p class="Body">From here, you can <a href="Payment_Terms.htm">set up your payment terms</a>, choose your payment methods, update your business address, and add your <a href="../Payments/Terms_Conditions.htm">terms and conditions</a> for quotes and invoices.</p>
                                                     <table style="width: 100%;mc-table-style: url('../../Resources/Tablestyles/Play.css');" class="TableStyle-Play" cellspacing="0">
                                                         <col class="TableStyle-Play-Column-Play_Img" />
                                                         <col class="TableStyle-Play-Column-Statement" />
@@ -179,32 +190,29 @@
                                                     </table>
                                                     <p class="Body_Bottom_Space"><a class="MCPopupThumbnailLink MCPopupThumbnailPopup" href="../../Resources/A_Images/Settings/QuoteInvoice_Settings_STP.png" data-mc-popup-alt="Quotes and Invoices Settings"><img class="MCPopupThumbnail img" data-mc-width="1344" data-mc-height="4242" src="../../Resources/A_Images/Settings/QuoteInvoice_Settings_STP.png" alt="Quotes and Invoices Settings" title="Quotes and Invoices Settings" tabindex="" style="mc-thumbnail: popup;mc-thumbnail-max-height: 350px;max-height: 350px;" /></a>
                                                     </p>
-                                                    <p class="Body_Bottom_Space"> <span class="mc-variable General.ProductName1 variable">hipages tradiecore</span> facilitates the following 2 methods of receiving payments from customers:</p>
+                                                    <p class="Body">hipages tradiecore supports two ways for you to receive payments from customers:</p>
                                                     <div class="MCDropDown MCDropDown_Closed dropDown"><span class="MCDropDownHead dropDownHead"><a href="#" class="MCDropDownHotSpot dropDownHotspot MCDropDownHotSpot_ MCHotSpotImage" aria-expanded="false"><img class="MCDropDown_Image_Icon" src="../../../Skins/Default/Stylesheets/Images/transparent.gif" height="11" width="16" alt="Closed" data-mc-alt2="Open" />Digital Payments</a></span>
                                                         <div class="MCDropDownBody dropDownBody">
-                                                            <p class="BodyBeforeList">Digital Payments in <span class="mc-variable General.ProductName1 variable">hipages tradiecore</span> are facilitated by <span class="mc-variable General.ProductName2 variable">hipages</span> payments.  <a href="../Payments/hipagespayments_Connecting.htm">hipages Payments</a> is a convenient payment solution for you to get paid faster when you send quotes and invoices. Powered by Stripe, you now have, </p>
+                                                            <p class="Body">Digital Payments in <span class="mc-variable General.ProductName1 variable">hipages tradiecore</span> are powered by <span class="mc-variable General.ProductName2 variable">hipages</span> payments, a fast and secure way to get paid when you send quotes or invoices. </p>
+                                                            <p class="BodyBeforeList">With hipages Payments, you can:</p>
                                                             <ul class="BulletList">
                                                                 <li class="BulletList">
-                                                                    <p class="Lvl1_BulList">A secure way of accepting payments from any customer. You can accept credit card payments (Visa, Mastercard or AMEX) along with Apple Pay, Google Pay, and coming soon to Apple devices, <a href="../Payments/TtoP.htm" class="MCXref xref">Tap to Pay</a>.</p>
+                                                                    <p class="Lvl1_BulList">Accept major credit and debit cards (Visa, Mastercard, AMEX)</p>
                                                                 </li>
                                                                 <li class="BulletList">
-                                                                    <p class="Lvl1_BulList">An easy-to-use payment platform.</p>
+                                                                    <p class="Lvl1_BulList">Accept digital wallet payments including Apple Pay, Google Pay, and <a href="../Payments/TtoP.htm" class="MCXref xref">Tap to Pay</a></p>
                                                                 </li>
                                                                 <li class="BulletList">
-                                                                    <p class="Lvl1_BulList">A leading secure digital payments infrastructure.</p>
-                                                                </li>
-                                                                <li class="BulletList">
-                                                                    <p class="Lvl1_BulListLast">Automatically add a payment link to customers email invoices.</p>
+                                                                    <p class="Lvl1_BulListLast">Automatically include a secure payment link in your customer’s invoice email</p>
                                                                 </li>
                                                             </ul>
-                                                            <p class="Body">To find out how you can set up <span class="mc-variable General.ProductName2 variable">hipages</span> payments, see <a href="../Payments/hipagespayments_Connecting.htm" class="MCXref xref">Connecting to hipages Payments</a>.</p>
-                                                            <p class="Body">You will receive funds within 2 business days to the bank account that you nominated, when setting up hipages payments or your Stripe account.</p>
+                                                            <p class="Body">Payments are processed securely through Stripe. Funds are deposited to your nominated bank account within two business days after your customer makes a payment. For <span class="mc-variable General.ProductName2 variable">hipages</span> payments set up instructions, see <a href="../Payments/hipagespayments_Connecting.htm" class="MCXref xref">Connecting to hipages Payments</a>.</p>
                                                         </div>
                                                     </div>
                                                     <div class="MCDropDown MCDropDown_Closed dropDown"><span class="MCDropDownHead dropDownHead"><a href="#" class="MCDropDownHotSpot dropDownHotspot MCDropDownHotSpot_ MCHotSpotImage" aria-expanded="false"><img class="MCDropDown_Image_Icon" src="../../../Skins/Default/Stylesheets/Images/transparent.gif" height="11" width="16" alt="Closed" data-mc-alt2="Open" />Bank Transfers</a></span>
                                                         <div class="MCDropDownBody dropDownBody">
-                                                            <p class="Body">If you do not have digital payment methods set up for your business, you can choose the direct bank transfer option to receive payments from your customers. </p>
-                                                            <p class="Body">You will need to enter your banking information such as BSB and account number into <span class="mc-variable General.ProductName1 variable">hipages tradiecore</span>. These details will then be included in all the PDF invoices and quotes that you send to your customers. </p>
+                                                            <p class="Body">If you don't have digital payments set up, you can receive payments directly to your bank account via bank transfer. </p>
+                                                            <p class="Body">Simply add your BSB and account number in hipages tradiecore. These details are automatically included in the PDF quotes and invoices you send to customers.</p>
                                                             <p class="Body">For information on how to set your banking details, see <a href="../Payments/Bank_Transfer.htm" title="Setting up bank transfers" class="MCXref xref">Setting up bank details and transfers</a>.</p>
                                                         </div>
                                                     </div>

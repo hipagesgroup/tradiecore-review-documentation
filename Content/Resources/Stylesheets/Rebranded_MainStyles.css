@@ -101,12 +101,12 @@ p
 div.topic-hero	/*This is the Hero/Banner on the topics Page - To replace the banner image with your own, change background-image property*/
 {
 	background-repeat: no-repeat;
-	padding-top: 20px;
 	height: 100%;
 	background-position: center;
 	background-size: cover;
 	background-image: none;
 	background-color: #FFFFFF;
+	padding-top: 20px;
 }
 
 /*==Mad Cap proxy/editor assigned styles==*/
@@ -436,6 +436,7 @@ MadCap|dropDown.Heading_2
 	margin-top: 10px;
 	mc-closed-image: url('../A_Images/Assets/Icons/Arrows/arrow-right-hiOrange.png');
 	mc-open-image: url('../A_Images/Assets/Icons/Arrows/arrow-down-hiOrange.png');
+	font-family: Homie;
 }
 
 td
@@ -465,7 +466,8 @@ p.ComingUp
 	font-size: 16px;
 	margin-bottom: 0px;
 	padding-bottom: 0px;
-	background-color: #E8E9EB;
+	color: #202a3e;
+	background-color: #e8e9eb;
 }
 
 MadCap|dropDownHead
@@ -518,6 +520,48 @@ object.Mobile_Vids
 {
 	height: 350px;
 	width: 200px;
+}
+
+div.Header	/*This is a custom responsive layout row style (div class) in your stylesheet. To provide your own description for this style: (1) Open the stylesheet; (2) Find and select the div class with this name; and (3) In the Comment field, replace this text with your own. For more information on adding comments to styles, see the online Help.*/
+{
+	mc-grid-row: true;
+	margin-left: auto;
+	margin-right: auto;
+	background: #202a3e;
+	color: #ffffff;
+	font-family: Homie;
+	font-size: 20px;
+	background-repeat: no-repeat;
+	text-align: center;
+	background-size: 300px 200px;
+	margin-top: -1px;
+	padding-top: 0px;
+}
+
+div.Header::before
+{
+	content: ' ';
+	display: table;
+}
+
+div.Header::after
+{
+	content: ' ';
+	display: table;
+	clear: both;
+}
+
+div.Header > div
+{
+	float: left;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+div.Header > div:nth-child(1)
+{
+	width: 100%;
+	margin-left: 0%;
 }
 
 /*===========================================================================================================================================================
@@ -573,6 +617,12 @@ Styles after this point are styles that are for specific mediums. If any additio
 	}
 
 	div.Columns-2 > div:nth-child(2)
+	{
+		width: 50%;
+		margin-left: 0%;
+	}
+
+	div.Header > div:nth-child(1)
 	{
 		width: 50%;
 		margin-left: 0%;
@@ -651,6 +701,12 @@ Styles after this point are styles that are for specific mediums. If any additio
 		width: 200px;
 		height: 350px;
 	}
+
+	div.Header > div:nth-child(1)
+	{
+		width: 100%;
+		margin-left: 0%;
+	}
 }
 
 h1.BodyContent
@@ -658,6 +714,10 @@ h1.BodyContent
 	font-size: 24px;
 	color: #202A3E;
 	font-family: Homie;
+	padding-bottom: 0px;
+	margin-top: 0px;
+	margin: 0px 0px;
+	margin-bottom: 8px;
 }
 
 p.Body
@@ -677,6 +737,7 @@ p.Lvl1_BulList
 	padding-bottom: 2px;
 	color: #202A3E;
 	font-family: Roboto;
+	line-height: 22px;
 }
 
 p.Lvl2_List
@@ -697,7 +758,6 @@ p.Body_Indented
 
 p.Note_Heading
 {
-	font-size: 14px;
 	padding-bottom: 0px;
 	margin-bottom: 0px;
 	font-style: italic;
@@ -709,11 +769,11 @@ p.Note_Heading
 	font-weight: 500;
 	padding-top: 3px;
 	margin-top: 7px;
+	font-size: 16px;
 }
 
 p.Note_Body_Border
 {
-	font-size: 14px;
 	font-weight: normal;
 	font-style: italic;
 	margin-top: 0px;
@@ -725,6 +785,7 @@ p.Note_Body_Border
 	border-bottom: solid 1px #f16e00;
 	font-family: Roboto;
 	margin-bottom: 8px;
+	font-size: 16px;
 }
 
 p.Tip_Heading
@@ -744,16 +805,16 @@ p.Tip_Body
 p.BodyBeforeList
 {
 	font-size: 16px;
-	line-height: normal;
 	padding-bottom: 0px;
 	font-style: normal;
 	font-weight: normal;
 	margin: 0;
 	color: #202A3E;
-	margin-top: 4px;
 	font-family: Roboto;
 	margin-bottom: -3px;
-	padding-top: 3px;
+	margin-top: 2px;
+	padding-top: 2px;
+	line-height: 22px;
 }
 
 ul.BulletList
@@ -797,7 +858,6 @@ img.Intro
 
 p.Note_Body
 {
-	font-size: 14px;
 	font-weight: normal;
 	font-style: italic;
 	margin-top: 0px;
@@ -809,6 +869,7 @@ p.Note_Body
 	line-height: normal;
 	color: #202A3E;
 	font-family: Roboto;
+	font-size: 16px;
 }
 
 ol.NumberedList
@@ -1153,12 +1214,12 @@ p.FAQ
 h3.BodyContentFAQ
 {
 	font-size: 16px;
-	font-weight: bold;
 	margin: 0px;
 	margin-top: 3px;
 	padding-bottom: 2px;
 	color: #202A3E;
-	font-family: Homie;
+	font-family: Roboto;
+	font-weight: bold;
 }
 
 ul.NumList_BulletList
@@ -1168,6 +1229,7 @@ ul.NumList_BulletList
 	list-style-type: disc;
 	padding-right: 0px;
 	margin-left: 4px;
+	margin-top: 2px;
 }
 
 b.Note_Bold
@@ -1273,6 +1335,8 @@ MadCap|dropDownHotspot.BodyContent
 {
 	color: #202A3E;
 	font-weight: bold;
+	mc-closed-image: url('../A_Images/Assets/Icons/Arrows/arrow-down-hiOrange.png');
+	mc-open-image: url('../A_Images/Assets/Icons/Arrows/arrow-up-hiOrange.png');
 }
 
 h2.BodyContent_Vids
@@ -1285,8 +1349,9 @@ h2.BodyContent_Vids
 	padding: 2px 0px 0px;
 	padding-top: 4px;
 	margin-top: 12px;
-	border-top: solid 1px #797f8b;
 	border-top-color: #797f8b;
+	border-top: none 2px #000000;
+	background: transparent;
 }
 
 MadCap|dropDown.Vids_Last
@@ -1320,5 +1385,50 @@ ul.BulletList_GS
 	padding-top: 2px;
 	margin-bottom: 2px;
 	margin-left: 0px;
+}
+
+p.SectionHeader
+{
+	font-family: Homie;
+	font-size: 16px;
+	color: #202a3e;
+	margin-bottom: 0px;
+	margin-top: 0px;
+	padding-bottom: 0px;
+	padding-top: 0px;
+	margin: 0px;
+}
+
+div.vimeo-wrapper
+{
+	position: relative;
+	/*aspect-ratio: 9 / 16;
+	padding-top: 177.78%;*/
+	height: 0px;
+	overflow: hidden;
+	width: 100%;
+	max-width: 50%;
+	margin: 0px;
+}
+
+iframe.vimeo-wrapper
+{
+	position: absolute;
+	top: 0px;
+	left: 0px;
+}
+
+MadCap|dropDownHead.BodyContent
+{
+	mc-closed-image: url('../A_Images/Assets/Icons/Arrows/arrow-down-hiOrange.png');
+	mc-open-image: url('../A_Images/Assets/Icons/Arrows/arrow-up-hiOrange.png');
+	color: #202a3e;
+	font-size: 16px;
+	font-weight: bold;
+}
+
+div.body_vids
+{
+	background: #e8e9eb;
 }
 

@@ -48,15 +48,15 @@
 		top: 50%;
 		transform: translateY(-50%);
 		display: block;
-		left: auto;
-		right: -13px;
+		left: -13px;
+		right: auto;
 	}
 
 	nav.title-bar
 	{
 		background-position: center top;
 		background-repeat: no-repeat;
-		background-color: #2B2E3D;
+		background-color: #202a3e;
 	}
 
 	/* Topbar Menu Styles */
@@ -237,8 +237,8 @@
 		top: 50%;
 		transform: translateY(-50%);
 		margin: 0;
-		left: auto;
-		right: 35px;
+		left: 35px;
+		right: auto;
 	}
 
 	.title-bar-layout .central-account-wrapper
@@ -268,9 +268,14 @@
 
 	.central-dropdown-content
 	{
-		left: auto;
-		right: -25px;
+		left: -25px;
+		right: auto;
 		background-color: #ffffff;
+	}
+
+	.featured-snippets-container
+	{
+		
 	}
 
 	.central-dropdown .central-account-drop
@@ -302,11 +307,6 @@
 	.central-separator
 	{
 		background-color: #D5D8DA;
-	}
-
-	.featured-snippets-container
-	{
-		
 	}
 
 	.off-canvas-wrapper-inner nav.title-bar .outer-row

@@ -82,13 +82,13 @@
     <body>
         <div class="foundation-wrap off-canvas-wrapper">
             <div class="off-canvas-wrapper-inner" data-off-canvas-wrapper="">
-                <aside class="off-canvas position-right" role="complementary" id="offCanvas" data-off-canvas="" data-position="right" data-mc-ignore="true">
-                    <ul class="off-canvas-drilldown vertical menu off-canvas-list" data-drilldown="" data-mc-back-link="Back" data-mc-css-tree-node-expanded="is-drilldown-submenu-parent" data-mc-css-tree-node-collapsed="is-drilldown-submenu-parent" data-mc-css-sub-menu="vertical menu slide-in-right is-drilldown-submenu" data-mc-include-indicator="False" data-mc-include-icon="False" data-mc-include-parent-link="True" data-mc-include-back="True" data-mc-defer-expand-event="True" data-mc-expand-event="click.zf.drilldown" data-mc-toc="True">
+                <aside class="off-canvas position-left" role="complementary" id="offCanvas" data-off-canvas="" data-position="left" data-mc-ignore="true">
+                    <ul class="off-canvas-drilldown vertical menu off-canvas-list" data-drilldown="" data-mc-back-link="Back" data-mc-css-tree-node-expanded="is-drilldown-submenu-parent" data-mc-css-tree-node-collapsed="is-drilldown-submenu-parent" data-mc-css-sub-menu="vertical menu slide-in-left is-drilldown-submenu" data-mc-include-indicator="False" data-mc-include-icon="False" data-mc-include-parent-link="True" data-mc-include-back="True" data-mc-defer-expand-event="True" data-mc-expanded-event="open.zf.drilldown closed.zf.drilldown" data-mc-expand-event="click.zf.drilldown" data-mc-toc="True">
                     </ul>
                 </aside>
                 <div class="off-canvas-content inner-wrap" data-off-canvas-content="">
-                    <div>
-                        <nav class="title-bar tab-bar" aria-label="Main navigation and search" data-mc-ignore="true"><a class="skip-to-content fluid-skip showOnFocus" href="#">Skip To Main Content</a>
+                    <div data-sticky-container="" class="title-bar-container">
+                        <nav class="title-bar tab-bar sticky" aria-label="Main navigation and search" data-sticky="" data-options="marginTop:0" style="width:100%" data-sticky-on="small" data-mc-ignore="true"><a class="skip-to-content fluid-skip showOnFocus" href="#">Skip To Main Content</a>
                             <div class="middle title-bar-section outer-row clearfix">
                                 <div class="menu-icon-container relative clearfix">
                                     <div class="central-account-wrapper">
@@ -103,11 +103,21 @@
                                 </div>
                             </div>
                             <div class="title-bar-layout outer-row">
-                                <div class="logo-wrapper"><a class="logo" href="../Web-hipagestradiecoreHome.htm" alt="Logo"></a>
+                                <div class="logo-wrapper"><a class="logo" href="../hipagestradiecoreHome.htm" alt="Logo"></a>
                                 </div>
                                 <div class="navigation-wrapper nocontent">
                                     <ul class="navigation clearfix" data-mc-css-tree-node-has-children="has-children" data-mc-css-sub-menu="sub-menu" data-mc-expand-event="mouseenter" data-mc-top-nav-menu="True" data-mc-max-depth="5" data-mc-include-icon="False" data-mc-include-indicator="False" data-mc-include-children="True" data-mc-include-siblings="True" data-mc-include-parent="True" data-mc-toc="True">
-                                        <li class="placeholder" style="visibility:hidden"><a>placeholder</a>
+                                        <li class="tree-node tree-node-preloaded has-children"><a href="../W - Introduction/Getting Started_Intro.htm">Intro</a>
+                                        </li>
+                                        <li class="tree-node tree-node-preloaded has-children"><a href="../W - Leads/Leads_Intro.htm">Leads</a>
+                                        </li>
+                                        <li class="tree-node tree-node-preloaded has-children"><a href="../W - Jobs/Jobs_Intro.htm">Jobs</a>
+                                        </li>
+                                        <li class="tree-node tree-node-preloaded has-children"><a href="../W - Quotes/Quotes_Intro.htm">Quotes</a>
+                                        </li>
+                                        <li class="tree-node tree-node-preloaded has-children"><a href="../W - Invoices/Invoices_Intro.htm">Invoices</a>
+                                        </li>
+                                        <li class="tree-node tree-node-preloaded has-children"><a href="../W - Settings/Settings_Intro.htm">Settings</a>
                                         </li>
                                     </ul>
                                 </div>
@@ -150,7 +160,7 @@
                         <div class="row outer-row sidenav-layout">
                             <nav class="sidenav-wrapper">
                                 <div class="sidenav-container">
-                                    <ul class="off-canvas-accordion vertical menu sidenav" data-accordion-menu="" data-mc-css-tree-node-expanded="is-accordion-submenu-parent" data-mc-css-tree-node-collapsed="is-accordion-submenu-parent" data-mc-css-sub-menu="vertical menu accordion-menu is-accordion-submenu nested" data-mc-include-indicator="False" data-mc-include-icon="False" data-mc-include-parent-link="False" data-mc-include-back="False" data-mc-defer-expand-event="True" data-mc-expand-event="click.zf.accordionMenu" data-mc-toc="True" data-mc-side-nav-menu="True">
+                                    <ul class="off-canvas-accordion vertical menu sidenav" data-accordion-menu="" data-mc-css-tree-node-expanded="is-accordion-submenu-parent" data-mc-css-tree-node-collapsed="is-accordion-submenu-parent" data-mc-css-sub-menu="vertical menu accordion-menu is-accordion-submenu nested" data-mc-include-indicator="False" data-mc-include-icon="False" data-mc-include-parent-link="False" data-mc-include-back="False" data-mc-defer-expand-event="True" data-mc-expanded-event="down.zf.accordionMenu up.zf.accordionMenu" data-mc-expand-event="click.zf.accordionMenu" data-mc-toc="True" data-mc-side-nav-menu="True">
                                     </ul>
                                 </div>
                             </nav>
@@ -162,8 +172,8 @@
                                             <div>
                                                 <div role="main" id="mc-main-content">
                                                     <h1 class="BodyContent">Managing your calendar settings</h1>
-                                                    <p class="Body">Use Calendar Settings to import and export calendar events between your device’s calendar and the <span class="mc-variable General.ProductName1 variable">hipages tradiecore</span> app. This lets you manage appointments in one place by importing or exporting events as needed. Calendar Settings lets you quickly connect or disconnect your device’s calendar with the Tradiecore app. You can choose to import events into the app or export your in-app appointments to your personal calendar.</p>
-                                                    <div class="MCDropDown MCDropDown_Closed dropDown"><span class="MCDropDownHead dropDownHead"><a class="MCDropDownHotSpot dropDownHotspot dropDownHotspotHeading_2 MCDropDownHotSpot_ MCHotSpotImage" href="#" aria-expanded="false"><img class="MCDropDown_Image_Icon" src="../../Skins/Default/Stylesheets/Images/transparent.gif" height="11" width="16" alt="Closed" data-mc-alt2="Open" />Import personal calendar appointments</a></span>
+                                                    <p class="Body">Use Calendar Settings to import and export calendar events between your device’s calendar and the <span class="mc-variable General.ProductName1 variable">hipages tradiecore</span> app. This lets you manage appointments in one place by importing or exporting events as needed. Calendar Settings lets you quickly connect or disconnect your device’s calendar with the tradiecore app. You can choose to import events into the app or export your in-app appointments to your personal calendar.</p>
+                                                    <div class="MCDropDown MCDropDown_Closed dropDown dropDownHeading_2"><span class="MCDropDownHead dropDownHead dropDownHeadHeading_2"><a class="MCDropDownHotSpot dropDownHotspot dropDownHotspotHeading_2 MCDropDownHotSpot_ MCDropDownHotSpot_Heading_2 Heading_2 MCHotSpotImage" href="#" aria-expanded="false"><img class="MCDropDown_Image_Icon" src="../../Skins/Default/Stylesheets/Images/transparent.gif" height="11" width="16" alt="Closed" data-mc-alt2="Open" />Import personal calendar appointments</a></span>
                                                         <div class="MCDropDownBody dropDownBody">
                                                             <p class="Body">The import option gives you control over whether events from your personal calendar appear in the app.</p>
                                                             <p class="BodyBeforeList">To enable importing appointments: </p>
@@ -189,7 +199,7 @@
                                                             </ol>
                                                         </div>
                                                     </div>
-                                                    <div class="MCDropDown MCDropDown_Closed dropDown"><span class="MCDropDownHead dropDownHead"><a class="MCDropDownHotSpot dropDownHotspot dropDownHotspotHeading_2 MCDropDownHotSpot_ MCHotSpotImage" href="#" aria-expanded="false"><img class="MCDropDown_Image_Icon" src="../../Skins/Default/Stylesheets/Images/transparent.gif" height="11" width="16" alt="Closed" data-mc-alt2="Open" />Export calendar appointments </a></span>
+                                                    <div class="MCDropDown MCDropDown_Closed dropDown dropDownHeading_2"><span class="MCDropDownHead dropDownHead dropDownHeadHeading_2"><a class="MCDropDownHotSpot dropDownHotspot dropDownHotspotHeading_2 MCDropDownHotSpot_ MCDropDownHotSpot_Heading_2 Heading_2 MCHotSpotImage" href="#" aria-expanded="false"><img class="MCDropDown_Image_Icon" src="../../Skins/Default/Stylesheets/Images/transparent.gif" height="11" width="16" alt="Closed" data-mc-alt2="Open" />Export calendar appointments </a></span>
                                                         <div class="MCDropDownBody dropDownBody">
                                                             <p class="Body">The Export events to your personal calendar option allows you to view all your hipages appointments in your device’s native calendar.</p>
                                                             <p class="BodyBeforeList">To enable exporting appointments:</p>
@@ -207,7 +217,7 @@
                                                                 </li>
                                                                 <li class="NumberedList" value="4">
                                                                     <p class="Lvl1_NumList">On the <i class="ui_names">Calendar Settings</i> screen, use the <b class="BodyBold">Export events to your personal calendar</b> option to turn calendar exports on or off.</p>
-                                                                    <p><a class="MCPopupThumbnailLink MCPopupThumbnailPopup" href="../Resources/A_Images/Intro&amp;Common Images/Calendar_Settings.png"><img class="MCPopupThumbnail img imgListImages" data-mc-width="375" data-mc-height="758" src="../Resources/A_Images/Intro&amp;Common Images/Calendar_Settings.png" title="Calendar settings" tabindex="" style="max-height: 170px;" /></a>
+                                                                    <p class="Lvl1_NumList"><a class="MCPopupThumbnailLink MCPopupThumbnailPopup" href="../Resources/A_Images/Jobs/Calendar_Settings_2.16.0.png"><img class="MCPopupThumbnail img imgListImages" data-mc-width="1344" data-mc-height="2855" src="../Resources/A_Images/Jobs/Calendar_Settings_2.16.0.png" title="Calendar settings screen" tabindex="" style="max-height: 170px;" /></a>
                                                                     </p>
                                                                 </li>
                                                                 <li class="NumberedList" value="5">
@@ -220,7 +230,7 @@
                                                                     <p class="Lvl1_NumList"><a class="MCPopupThumbnailLink MCPopupThumbnailPopup" href="../Resources/A_Images/Intro&amp;Common Images/Export_Events_2.png"><img class="MCPopupThumbnail img imgListImages" data-mc-width="432" data-mc-height="792" src="../Resources/A_Images/Intro&amp;Common Images/Export_Events_2.png" title="Add subscription calendar pop up" tabindex="" style="max-height: 170px;" /></a>
                                                                     </p>
                                                                     <p class="Lvl1_NumList">Once complete, the export option in <b class="BodyBold">Calendar Settings</b> will display the active link, and your in app appointments will begin syncing with your device calendar.</p>
-                                                                    <p class="Lvl1_NumList1_Last"><a class="MCPopupThumbnailLink MCPopupThumbnailPopup" href="../Resources/A_Images/Intro&amp;Common Images/Calendar_Settings_2.png"><img class="MCPopupThumbnail img imgListImages" data-mc-width="375" data-mc-height="812" src="../Resources/A_Images/Intro&amp;Common Images/Calendar_Settings_2.png" title="Updated export events" tabindex="" style="max-height: 170px;" /></a>
+                                                                    <p class="Lvl1_NumList1_Last"><a class="MCPopupThumbnailLink MCPopupThumbnailPopup" href="../Resources/A_Images/Jobs/Calendar_Settings_2.16.0.png"><img class="MCPopupThumbnail img imgListImages" data-mc-width="1344" data-mc-height="2855" src="../Resources/A_Images/Jobs/Calendar_Settings_2.16.0.png" title="Calendar settings screen" tabindex="" style="max-height: 170px;" /></a>
                                                                     </p>
                                                                 </li>
                                                             </ol>

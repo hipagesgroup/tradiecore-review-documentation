@@ -100,12 +100,12 @@ div.topic-hero	/*This is the Hero/Banner on the Home Page - To replace the banne
 {
 	background-repeat: no-repeat;
 	height: 800px;
-	margin-top: 100px;
 	background-position: center;
 	background-size: cover;
 	background-image: url('../A_Images/Assets/HeroImage/GettyImages-1161937292_Jan 22.jpg');
 	padding-top: 150px;
 	padding-bottom: 150px;
+	margin-top: 0px;
 }
 
 div.topic-hero > div

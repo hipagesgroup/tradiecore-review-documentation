@@ -1672,78 +1672,7 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
                             _this.toggle($submenu);
                         });
                     }
-                }).on('keydown.zf.accordionmenu', function (e) {
-                    var $element = $(this),
-                        $elements = $element.parent('ul').children('li'),
-                        $prevElement,
-                        $nextElement,
-                        $target = $element.children('[data-submenu]');
-
-                    $elements.each(function (i) {
-                        if ($(this).is($element)) {
-                            $prevElement = $elements.eq(Math.max(0, i - 1)).find('a').first();
-                            $nextElement = $elements.eq(Math.min(i + 1, $elements.length - 1)).find('a').first();
-
-                            if ($(this).children('[data-submenu]:visible').length) {
-                                // has open sub menu
-                                $nextElement = $element.find('li:first-child').find('a').first();
-                            }
-                            if ($(this).is(':first-child')) {
-                                // is first element of sub menu
-                                $prevElement = $element.parents('li').first().find('a').first();
-                            } else if ($prevElement.children('[data-submenu]:visible').length) {
-                                // if previous element has open sub menu
-                                $prevElement = $prevElement.find('li:last-child').find('a').first();
-                            }
-                            if ($(this).is(':last-child')) {
-                                // is last element of sub menu
-                                $nextElement = $element.parents('li').first().next('li').find('a').first();
-                            }
-
-                            return;
-                        }
-                    });
-                    Foundation.Keyboard.handleKey(e, 'AccordionMenu', {
-                        open: function () {
-                            if ($target.is(':hidden')) {
-                                _this.down($target);
-                                $target.find('li').first().find('a').first().focus();
-                            }
-                        },
-                        close: function () {
-                            if ($target.length && !$target.is(':hidden')) {
-                                // close active sub of this item
-                                _this.up($target);
-                            } else if ($element.parent('[data-submenu]').length) {
-                                // close currently open sub
-                                _this.up($element.parent('[data-submenu]'));
-                                $element.parents('li').first().find('a').first().focus();
-                            }
-                        },
-                        up: function () {
-                            $prevElement.attr('tabindex', -1).focus();
-                            return true;
-                        },
-                        down: function () {
-                            $nextElement.attr('tabindex', -1).focus();
-                            return true;
-                        },
-                        toggle: function () {
-                            if ($element.children('[data-submenu]').length) {
-                                _this.toggle($element.children('[data-submenu]'));
-                            }
-                        },
-                        closeAll: function () {
-                            _this.hideAll();
-                        },
-                        handled: function (preventDefault) {
-                            if (preventDefault) {
-                                e.preventDefault();
-                            }
-                            e.stopImmediatePropagation();
-                        }
-                    });
-                }); //.attr('tabindex', 0);
+                });
             }
 
             /**

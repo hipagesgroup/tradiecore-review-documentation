@@ -285,7 +285,7 @@ nav.title-bar
 	display: block;
 	padding-top: 20px;
 	padding-bottom: 20px;
-	background-color: #2B2E3D;
+	background-color: #202a3e;
 }
 
 nav.title-bar .menu-icon
@@ -858,6 +858,11 @@ div.central-dropdown-content > a:hover
 	-pie-background: linear-gradient(transparent, #ffffff);
 }
 
+.featured-snippets-container
+{
+	
+}
+
 .central-dropdown:hover
 {
 	
@@ -867,11 +872,6 @@ div.central-dropdown-content > a:hover
 {
 	background-repeat: no-repeat;
 	background-position: center center;
-}
-
-.featured-snippets-container
-{
-	
 }
 
 #knowledge-panel
