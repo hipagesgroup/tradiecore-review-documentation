@@ -776,28 +776,6 @@ video._Mobile_Vids_0
 	font-weight: bold;
 }
 
-.dropDown.dropDownVids_Last
-{
-	border-bottom: solid 1px #797f8b;
-	margin-bottom: 6px;
-}
-
-.MCDropDown_Open .MCDropDownHotSpot_.MCHotSpotImage.MCDropDownHotSpot_Vids_Last
-{
-	background-position: left;
-	background-image: url('arrow-down-gray.png');
-	padding-left: 0px;
-	padding-right: 0;
-}
-
-.MCDropDown_Closed .MCDropDownHotSpot_.MCHotSpotImage.MCDropDownHotSpot_Vids_Last
-{
-	background-position: left;
-	background-image: url('arrow-right-gray.png');
-	padding-left: 0px;
-	padding-right: 0;
-}
-
 .dropDown.dropDownNumList
 {
 	margin-left: 17px;
