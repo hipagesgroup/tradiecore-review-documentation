@@ -516,8 +516,8 @@
 	{
 		margin-left: 0px;
 		margin-right: 0px;
-		left: 35px;
-		right: auto;
+		left: auto;
+		right: 35px;
 	}
 
 	._Skins_Web_HTML5___Top_Navigation .central-dropdown .central-account-drop
@@ -545,8 +545,8 @@
 	._Skins_Web_HTML5___Top_Navigation .central-dropdown-content
 	{
 		height: auto;
-		left: -25px;
-		right: auto;
+		left: auto;
+		right: -25px;
 		background-color: #ffffff;
 	}
 
@@ -1244,8 +1244,8 @@
 	._Skins_Web_HTML5___Top_Navigation nav.title-bar .menu-icon
 	{
 		display: block;
-		left: -13px;
-		right: auto;
+		left: auto;
+		right: -13px;
 	}
 
 	._Skins_Web_HTML5___Top_Navigation .search-auto-complete ul
@@ -1755,8 +1755,8 @@
 	{
 		margin-left: 0px;
 		margin-right: 0px;
-		left: 35px;
-		right: auto;
+		left: auto;
+		right: 35px;
 	}
 
 	._Skins_HTML5___Top_Navigation .central-dropdown .central-account-drop
@@ -1784,8 +1784,8 @@
 	._Skins_HTML5___Top_Navigation .central-dropdown-content
 	{
 		height: auto;
-		left: -25px;
-		right: auto;
+		left: auto;
+		right: -25px;
 		background-color: #ffffff;
 	}
 
@@ -2483,8 +2483,8 @@
 	._Skins_HTML5___Top_Navigation nav.title-bar .menu-icon
 	{
 		display: block;
-		left: -13px;
-		right: auto;
+		left: auto;
+		right: -13px;
 	}
 
 	._Skins_HTML5___Top_Navigation .search-auto-complete ul

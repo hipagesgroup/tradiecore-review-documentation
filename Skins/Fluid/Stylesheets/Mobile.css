@@ -129,8 +129,8 @@
 
 	._Skins_Web_HTML5___Top_Navigation .central-dropdown
 	{
-		left: 35px;
-		right: auto;
+		left: auto;
+		right: 35px;
 	}
 
 	._Skins_Web_HTML5___Top_Navigation .central-dropdown .central-account-drop
@@ -158,8 +158,8 @@
 	{
 		margin-right: 0px;
 		height: auto;
-		left: -25px;
-		right: auto;
+		left: auto;
+		right: -25px;
 		background-color: #ffffff;
 	}
 
@@ -1033,6 +1033,7 @@
 	{
 		color: #202a3e;
 		font-family: Roboto;
+		margin-right: 0px;
 		background-color: transparent;
 	}
 
@@ -1113,8 +1114,8 @@
 	._Skins_Web_HTML5___Top_Navigation nav.title-bar .menu-icon
 	{
 		display: block;
-		left: -13px;
-		right: auto;
+		left: auto;
+		right: -13px;
 	}
 
 	._Skins_Web_HTML5___Top_Navigation .search-auto-complete ul
@@ -1547,8 +1548,8 @@
 
 	._Skins_HTML5___Top_Navigation .central-dropdown
 	{
-		left: 35px;
-		right: auto;
+		left: auto;
+		right: 35px;
 	}
 
 	._Skins_HTML5___Top_Navigation .central-dropdown .central-account-drop
@@ -1576,8 +1577,8 @@
 	{
 		margin-right: 0px;
 		height: auto;
-		left: -25px;
-		right: auto;
+		left: auto;
+		right: -25px;
 		background-color: #ffffff;
 	}
 
@@ -2091,6 +2092,7 @@
 	{
 		color: #202a3e;
 		font-family: Roboto;
+		margin-right: 6px;
 		background-color: transparent;
 	}
 
@@ -2171,8 +2173,8 @@
 	._Skins_HTML5___Top_Navigation nav.title-bar .menu-icon
 	{
 		display: block;
-		left: -13px;
-		right: auto;
+		left: auto;
+		right: -13px;
 	}
 
 	._Skins_HTML5___Top_Navigation .search-auto-complete ul

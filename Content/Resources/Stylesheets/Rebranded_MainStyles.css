@@ -707,6 +707,17 @@ Styles after this point are styles that are for specific mediums. If any additio
 		width: 100%;
 		margin-left: 0%;
 	}
+
+	div.vimeo-wrapper
+	{
+		margin: 0px 0px 0px -24px;
+	}
+
+	object.vimeo
+	{
+		width: 300px;
+		height: 528.57px;
+	}
 }
 
 h1.BodyContent
@@ -1176,7 +1187,7 @@ MadCap|dropDownHotspot.Lvl2
 	color: #202a3e;
 	font-family: Roboto;
 	display: block;
-	padding-left: 6px;
+	text-align: left;
 }
 
 MadCap|dropDown.Lvl2
@@ -1190,9 +1201,10 @@ MadCap|dropDown.Lvl2
 MadCap|dropDownBody.Lvl2
 {
 	line-height: normal;
-	margin-top: 4px;
 	font-size: 16px;
 	font-family: Roboto;
+	margin-left: 17px;
+	margin-top: 2px;
 }
 
 MadCap|dropDownHotspot.FAQs_Lvl1
@@ -1209,6 +1221,8 @@ p.FAQ
 	margin: 0px;
 	font-family: Roboto;
 	line-height: 22px;
+	margin-left: 6px;
+	color: #202a3e;
 }
 
 h3.BodyContentFAQ
@@ -1401,13 +1415,10 @@ p.SectionHeader
 
 div.vimeo-wrapper
 {
-	position: relative;
 	/*aspect-ratio: 9 / 16;
 	padding-top: 177.78%;*/
-	height: 0px;
 	overflow: hidden;
-	width: 100%;
-	max-width: 50%;
+	position: relative;
 	margin: 0px;
 }
 
@@ -1435,5 +1446,28 @@ MadCap|dropDownHead.BodyContent
 div.body_vids
 {
 	background: #e8e9eb;
+}
+
+object.vimeo
+{
+	height: 666px;
+	width: 378px;
+	margin-left: 0px;
+	margin: 0px;
+	padding: 0px;
+	float: left;
+	position: relative;
+}
+
+p.Lvl1_BulList2
+{
+	font-weight: normal;
+	font-size: 16px;
+	color: #202A3E;
+	font-family: Roboto;
+	line-height: 22px;
+	padding-bottom: 0px;
+	margin-top: 0px;
+	margin-bottom: -3px;
 }
 
