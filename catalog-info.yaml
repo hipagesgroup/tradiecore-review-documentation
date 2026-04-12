@@ -1,12 +1,9 @@
 apiVersion: backstage.io/v1alpha1
-kind: Component
+kind: Location
 metadata:
-  name: tradiecore-review-documentation
-  description: Repository to store Tradiecore online review documentation
-  annotations:
-    github.com/project-slug: hipagesgroup/tradiecore-review-documentation
+  name: tradiecore-review-documentation-apps
+  description: Applications managed within the tradiecore-review-documentation monorepo.
 spec:
-  type: documentation
-  lifecycle: production
-  system: tradiecore
-  owner: job-management-experience
+  targets:
+    - ./catalog/*.yaml
+    - ./catalog/**/*.yaml

@@ -1,0 +1,14 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: tradiecore-review-documentation
+  title: "Tradiecore Review Documentation"
+  description: Repository to store Tradiecore online review documentation
+  annotations:
+    github.com/project-slug: hipagesgroup/tradiecore-review-documentation
+    github.com/team-slug: job-management-experience
+spec:
+  type: documentation
+  lifecycle: production
+  system: tradiecore
+  owner: job-management-experience
