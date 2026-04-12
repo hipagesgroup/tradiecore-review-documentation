@@ -1,8 +1,8 @@
 apiVersion: backstage.io/v1alpha1
 kind: Location
 metadata:
-  name: tradiecore-review-documentation-apps
-  description: Applications managed within the tradiecore-review-documentation monorepo.
+  name: tradiecore-review-documentation
+  description: Catalog entities for tradiecore-review-documentation.
 spec:
   targets:
     - ./catalog/*.yaml

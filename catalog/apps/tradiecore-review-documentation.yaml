@@ -7,6 +7,9 @@ metadata:
   annotations:
     github.com/project-slug: hipagesgroup/tradiecore-review-documentation
     github.com/team-slug: job-management-experience
+  tags:
+    - repo
+    - documentation
 spec:
   type: documentation
   lifecycle: production
