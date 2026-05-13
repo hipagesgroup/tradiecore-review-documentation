@@ -51,7 +51,7 @@ h1
 	color: #2B2E3D;
 	font-weight: bold;
 	font-size: 1.5em;
-	font-family: 'Segoe UI';
+	font-family: 'Homie';
 }
 
 h2
@@ -1249,11 +1249,11 @@ ul.NumList_BulletList
 
 b.Note_Bold
 {
-	font-family: 'Segoe UI';
-	font-size: 14px;
 	font-style: italic;
 	font-weight: bold;
 	color: #2B2E3D;
+	font-family: Roboto;
+	font-size: 16px;
 }
 
 MadCap|dropDown.NumList
