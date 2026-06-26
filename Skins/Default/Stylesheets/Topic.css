@@ -712,6 +712,13 @@ div.MCBreadcrumbsBox_main-section_0
 	padding-bottom: 6px;
 }
 
+video._Mobile_Vids_0
+{
+	display: inline-block;
+	height: 350px;
+	width: 200px;
+}
+
 .dropDown.dropDownHeading_2
 {
 	margin-top: 10px;
@@ -764,13 +771,6 @@ div.MCBreadcrumbsBox_main-section_0
 	padding-bottom: 6px;
 	width: 238px;
 	height: 513px;
-}
-
-video._Mobile_Vids_0
-{
-	display: inline-block;
-	height: 350px;
-	width: 200px;
 }
 
 .dropDownHotspot.dropDownHotspotBodyContent
