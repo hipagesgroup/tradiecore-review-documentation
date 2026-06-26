@@ -19,6 +19,7 @@ mcTableStyle
 	border-bottom-width: 1px;
 	border-bottom-color: #e8e9eb;
 	max-id: 3;
+	margin-bottom: 9px;
 }
 
 mcTableColumnStyle
@@ -29,7 +30,7 @@ mcTableColumnStyle
 	separator-color: #e8e9eb;
 	name: Column1;
 	id: 0;
-	font-size: 16px;
+	font-size: 12pt;
 	font-family: Roboto;
 	cell-content-style-tag: p;
 	cell-content-style-class: Body;
@@ -46,6 +47,7 @@ mcTableHeadStyle
 	font-family: Homie;
 	text-align: left;
 	vertical-align: middle;
+	cell-padding-left: 6px;
 }
 
 mcTableBodyStyle
@@ -56,7 +58,7 @@ mcTableBodyStyle
 	separator-color: #e8e9eb;
 	name: Body1;
 	id: 1;
-	font-size: 16px;
+	font-size: 12pt;
 	font-family: Roboto;
 	vertical-align: middle;
 	text-align: left;
@@ -83,6 +85,7 @@ mcTableBodyStyle
 	border-bottom-style: solid;
 	border-bottom-color: #e8e9eb;
 	border-bottom-width: 1px;
+	margin-bottom: 9px;
 	border-spacing: 0px 0px;
 }
 
@@ -98,27 +101,29 @@ mcTableBodyStyle
 
 .TableStyle-GS_Content-HeadI-Column1-Header1
 {
-	font-size: 16px;
+	font-size: 12pt;
 	font-family: Homie;
 	text-align: left;
 	vertical-align: middle;
+	padding-left: 6px;
 }
 
 .TableStyle-GS_Content-HeadI-Column1-Header1 p
 {
-	font-size: 16px;
+	font-size: 12pt;
 	font-family: Homie;
 }
 
 .TableStyle-GS_Content-HeadE-Column1-Header1
 {
-	font-size: 16px;
+	font-size: 12pt;
 	border-right-width: 1px;
 	border-right-color: #e8e9eb;
 	border-right-style: solid;
 	font-family: Homie;
 	text-align: left;
 	vertical-align: middle;
+	padding-left: 6px;
 	border-bottom-width: 1px;
 	border-bottom-color: #e8e9eb;
 	border-bottom-style: solid;
@@ -126,16 +131,17 @@ mcTableBodyStyle
 
 .TableStyle-GS_Content-HeadE-Column1-Header1 p
 {
-	font-size: 16px;
+	font-size: 12pt;
 	font-family: Homie;
 }
 
 .TableStyle-GS_Content-HeadF-Column1-Header1
 {
-	font-size: 16px;
+	font-size: 12pt;
 	font-family: Homie;
 	text-align: left;
 	vertical-align: middle;
+	padding-left: 6px;
 	border-bottom-width: 1px;
 	border-bottom-color: #e8e9eb;
 	border-bottom-style: solid;
@@ -143,33 +149,35 @@ mcTableBodyStyle
 
 .TableStyle-GS_Content-HeadF-Column1-Header1 p
 {
-	font-size: 16px;
+	font-size: 12pt;
 	font-family: Homie;
 }
 
 .TableStyle-GS_Content-HeadH-Column1-Header1
 {
-	font-size: 16px;
+	font-size: 12pt;
 	border-right-width: 1px;
 	border-right-color: #e8e9eb;
 	border-right-style: solid;
 	font-family: Homie;
 	text-align: left;
 	vertical-align: middle;
+	padding-left: 6px;
 }
 
 .TableStyle-GS_Content-HeadH-Column1-Header1 p
 {
-	font-size: 16px;
+	font-size: 12pt;
 	font-family: Homie;
 }
 
 .TableStyle-GS_Content-HeadD-Column1-Header1
 {
-	font-size: 16px;
+	font-size: 12pt;
 	font-family: Homie;
 	text-align: left;
 	vertical-align: middle;
+	padding-left: 6px;
 	border-bottom-width: 1px;
 	border-bottom-color: #e8e9eb;
 	border-bottom-style: solid;
@@ -177,85 +185,89 @@ mcTableBodyStyle
 
 .TableStyle-GS_Content-HeadD-Column1-Header1 p
 {
-	font-size: 16px;
+	font-size: 12pt;
 	font-family: Homie;
 }
 
 .TableStyle-GS_Content-HeadC-Column1-Header1
 {
-	font-size: 16px;
+	font-size: 12pt;
 	font-family: Homie;
 	text-align: left;
 	vertical-align: middle;
+	padding-left: 6px;
 }
 
 .TableStyle-GS_Content-HeadC-Column1-Header1 p
 {
-	font-size: 16px;
+	font-size: 12pt;
 	font-family: Homie;
 }
 
 .TableStyle-GS_Content-HeadB-Column1-Header1
 {
-	font-size: 16px;
+	font-size: 12pt;
 	border-right-width: 1px;
 	border-right-color: #e8e9eb;
 	border-right-style: solid;
 	font-family: Homie;
 	text-align: left;
 	vertical-align: middle;
+	padding-left: 6px;
 }
 
 .TableStyle-GS_Content-HeadB-Column1-Header1 p
 {
-	font-size: 16px;
+	font-size: 12pt;
 	font-family: Homie;
 }
 
 .TableStyle-GS_Content-HeadA-Column1-Header1
 {
-	font-size: 16px;
+	font-size: 12pt;
 	font-family: Homie;
 	text-align: left;
 	vertical-align: middle;
+	padding-left: 6px;
 }
 
 .TableStyle-GS_Content-HeadA-Column1-Header1 p
 {
-	font-size: 16px;
+	font-size: 12pt;
 	font-family: Homie;
 }
 
 .TableStyle-GS_Content-HeadG-Column1-Header1
 {
-	font-size: 16px;
+	font-size: 12pt;
 	font-family: Homie;
 	text-align: left;
 	vertical-align: middle;
+	padding-left: 6px;
 }
 
 .TableStyle-GS_Content-HeadG-Column1-Header1 p
 {
-	font-size: 16px;
+	font-size: 12pt;
 	font-family: Homie;
 }
 
 .TableStyle-GS_Content-FootI-Column1-
 {
 	font-family: Roboto;
-	font-size: 16px;
+	font-size: 12pt;
 }
 
 .TableStyle-GS_Content-FootI-Column1- p
 {
 	font-family: Roboto;
-	font-size: 16px;
+	font-size: 12pt;
 }
 
 .TableStyle-GS_Content-FootE-Column1-
 {
 	font-family: Roboto;
-	font-size: 16px;
+	font-size: 12pt;
 	border-right-width: 1px;
 	border-right-color: #e8e9eb;
 	border-right-style: solid;
@@ -264,25 +276,25 @@ mcTableBodyStyle
 .TableStyle-GS_Content-FootE-Column1- p
 {
 	font-family: Roboto;
-	font-size: 16px;
+	font-size: 12pt;
 }
 
 .TableStyle-GS_Content-FootF-Column1-
 {
 	font-family: Roboto;
-	font-size: 16px;
+	font-size: 12pt;
 }
 
 .TableStyle-GS_Content-FootF-Column1- p
 {
 	font-family: Roboto;
-	font-size: 16px;
+	font-size: 12pt;
 }
 
 .TableStyle-GS_Content-FootH-Column1-
 {
 	font-family: Roboto;
-	font-size: 16px;
+	font-size: 12pt;
 	border-right-width: 1px;
 	border-right-color: #e8e9eb;
 	border-right-style: solid;
@@ -291,37 +303,37 @@ mcTableBodyStyle
 .TableStyle-GS_Content-FootH-Column1- p
 {
 	font-family: Roboto;
-	font-size: 16px;
+	font-size: 12pt;
 }
 
 .TableStyle-GS_Content-FootD-Column1-
 {
 	font-family: Roboto;
-	font-size: 16px;
+	font-size: 12pt;
 }
 
 .TableStyle-GS_Content-FootD-Column1- p
 {
 	font-family: Roboto;
-	font-size: 16px;
+	font-size: 12pt;
 }
 
 .TableStyle-GS_Content-FootC-Column1-
 {
 	font-family: Roboto;
-	font-size: 16px;
+	font-size: 12pt;
 }
 
 .TableStyle-GS_Content-FootC-Column1- p
 {
 	font-family: Roboto;
-	font-size: 16px;
+	font-size: 12pt;
 }
 
 .TableStyle-GS_Content-FootB-Column1-
 {
 	font-family: Roboto;
-	font-size: 16px;
+	font-size: 12pt;
 	border-right-width: 1px;
 	border-right-color: #e8e9eb;
 	border-right-style: solid;
@@ -330,31 +342,31 @@ mcTableBodyStyle
 .TableStyle-GS_Content-FootB-Column1- p
 {
 	font-family: Roboto;
-	font-size: 16px;
+	font-size: 12pt;
 }
 
 .TableStyle-GS_Content-FootA-Column1-
 {
 	font-family: Roboto;
-	font-size: 16px;
+	font-size: 12pt;
 }
 
 .TableStyle-GS_Content-FootA-Column1- p
 {
 	font-family: Roboto;
-	font-size: 16px;
+	font-size: 12pt;
 }
 
 .TableStyle-GS_Content-FootG-Column1-
 {
 	font-family: Roboto;
-	font-size: 16px;
+	font-size: 12pt;
 }
 
 .TableStyle-GS_Content-FootG-Column1- p
 {
 	font-family: Roboto;
-	font-size: 16px;
+	font-size: 12pt;
 }
 
 .TableStyle-GS_Content-Body-Body1
@@ -368,13 +380,13 @@ mcTableBodyStyle
 	vertical-align: middle;
 	padding-left: 6px;
 	font-family: Roboto;
-	font-size: 16px;
+	font-size: 12pt;
 }
 
 .TableStyle-GS_Content-BodyI-Column1-Body1 p
 {
 	font-family: Roboto;
-	font-size: 16px;
+	font-size: 12pt;
 }
 
 .TableStyle-GS_Content-BodyE-Column1-Body1
@@ -386,7 +398,7 @@ mcTableBodyStyle
 	border-bottom-color: #e8e9eb;
 	border-bottom-style: solid;
 	font-family: Roboto;
-	font-size: 16px;
+	font-size: 12pt;
 	border-right-width: 1px;
 	border-right-color: #e8e9eb;
 	border-right-style: solid;
@@ -395,7 +407,7 @@ mcTableBodyStyle
 .TableStyle-GS_Content-BodyE-Column1-Body1 p
 {
 	font-family: Roboto;
-	font-size: 16px;
+	font-size: 12pt;
 }
 
 .TableStyle-GS_Content-BodyF-Column1-Body1
@@ -407,13 +419,13 @@ mcTableBodyStyle
 	border-bottom-color: #e8e9eb;
 	border-bottom-style: solid;
 	font-family: Roboto;
-	font-size: 16px;
+	font-size: 12pt;
 }
 
 .TableStyle-GS_Content-BodyF-Column1-Body1 p
 {
 	font-family: Roboto;
-	font-size: 16px;
+	font-size: 12pt;
 }
 
 .TableStyle-GS_Content-BodyH-Column1-Body1
@@ -422,7 +434,7 @@ mcTableBodyStyle
 	vertical-align: middle;
 	padding-left: 6px;
 	font-family: Roboto;
-	font-size: 16px;
+	font-size: 12pt;
 	border-right-width: 1px;
 	border-right-color: #e8e9eb;
 	border-right-style: solid;
@@ -431,7 +443,7 @@ mcTableBodyStyle
 .TableStyle-GS_Content-BodyH-Column1-Body1 p
 {
 	font-family: Roboto;
-	font-size: 16px;
+	font-size: 12pt;
 }
 
 .TableStyle-GS_Content-BodyD-Column1-Body1
@@ -443,13 +455,13 @@ mcTableBodyStyle
 	border-bottom-color: #e8e9eb;
 	border-bottom-style: solid;
 	font-family: Roboto;
-	font-size: 16px;
+	font-size: 12pt;
 }
 
 .TableStyle-GS_Content-BodyD-Column1-Body1 p
 {
 	font-family: Roboto;
-	font-size: 16px;
+	font-size: 12pt;
 }
 
 .TableStyle-GS_Content-BodyC-Column1-Body1
@@ -458,13 +470,13 @@ mcTableBodyStyle
 	vertical-align: middle;
 	padding-left: 6px;
 	font-family: Roboto;
-	font-size: 16px;
+	font-size: 12pt;
 }
 
 .TableStyle-GS_Content-BodyC-Column1-Body1 p
 {
 	font-family: Roboto;
-	font-size: 16px;
+	font-size: 12pt;
 }
 
 .TableStyle-GS_Content-BodyB-Column1-Body1
@@ -473,7 +485,7 @@ mcTableBodyStyle
 	vertical-align: middle;
 	padding-left: 6px;
 	font-family: Roboto;
-	font-size: 16px;
+	font-size: 12pt;
 	border-right-width: 1px;
 	border-right-color: #e8e9eb;
 	border-right-style: solid;
@@ -482,7 +494,7 @@ mcTableBodyStyle
 .TableStyle-GS_Content-BodyB-Column1-Body1 p
 {
 	font-family: Roboto;
-	font-size: 16px;
+	font-size: 12pt;
 }
 
 .TableStyle-GS_Content-BodyA-Column1-Body1
@@ -491,13 +503,13 @@ mcTableBodyStyle
 	vertical-align: middle;
 	padding-left: 6px;
 	font-family: Roboto;
-	font-size: 16px;
+	font-size: 12pt;
 }
 
 .TableStyle-GS_Content-BodyA-Column1-Body1 p
 {
 	font-family: Roboto;
-	font-size: 16px;
+	font-size: 12pt;
 }
 
 .TableStyle-GS_Content-BodyG-Column1-Body1
@@ -506,13 +518,13 @@ mcTableBodyStyle
 	vertical-align: middle;
 	padding-left: 6px;
 	font-family: Roboto;
-	font-size: 16px;
+	font-size: 12pt;
 }
 
 .TableStyle-GS_Content-BodyG-Column1-Body1 p
 {
 	font-family: Roboto;
-	font-size: 16px;
+	font-size: 12pt;
 }
 
 
