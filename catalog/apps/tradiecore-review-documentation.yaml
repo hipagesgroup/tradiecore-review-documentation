@@ -3,13 +3,23 @@ kind: Component
 metadata:
   name: tradiecore-review-documentation
   title: "Tradiecore Review Documentation"
-  description: Repository to store Tradiecore online review documentation
+  description: >-
+    End-user help documentation for the Tradiecore web experience, published at
+    help-web.hipages.com.au via GitHub Pages and linked from the Tradiecore web
+    app's help menu. MadCap Flare-generated; covers jobs, quotes, invoices,
+    customers, scheduling, and settings.
   annotations:
     github.com/project-slug: hipagesgroup/tradiecore-review-documentation
     github.com/team-slug: job-management-experience
+    backstage.io/techdocs-entity: system:default/tradiecore
   tags:
     - repo
     - documentation
+    - madcap-flare
+  links:
+    - url: https://help-web.hipages.com.au
+      title: Published Documentation Site
+      icon: docs
 spec:
   type: documentation
   lifecycle: production
