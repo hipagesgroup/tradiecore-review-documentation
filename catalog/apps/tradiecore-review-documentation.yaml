@@ -10,7 +10,7 @@ metadata:
     customers, scheduling, and settings.
   annotations:
     github.com/project-slug: hipagesgroup/tradiecore-review-documentation
-    github.com/team-slug: job-management-experience
+    github.com/team-slug: business-platform
     backstage.io/techdocs-entity: system:default/tradiecore
   tags:
     - repo
@@ -24,4 +24,4 @@ spec:
   type: documentation
   lifecycle: production
   system: tradiecore
-  owner: job-management-experience
+  owner: business-platform
