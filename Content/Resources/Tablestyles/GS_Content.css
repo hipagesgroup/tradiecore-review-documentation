@@ -18,7 +18,7 @@ mcTableStyle
 	border-bottom-style: solid;
 	border-bottom-width: 1px;
 	border-bottom-color: #e8e9eb;
-	max-id: 3;
+	max-id: 5;
 	margin-bottom: 9px;
 }
 
@@ -30,8 +30,20 @@ mcTableColumnStyle
 	separator-color: #e8e9eb;
 	name: Column1;
 	id: 0;
-	font-size: 12pt;
+	font-size: 16px;
 	font-family: Roboto;
+	cell-content-style-tag: p;
+	cell-content-style-class: Body;
+	color: #202a3e;
+}
+
+mcTableColumnStyle
+{
+	span: 1;
+	id: 4;
+	name: Column2;
+	font-family: Roboto;
+	color: ;
 	cell-content-style-tag: p;
 	cell-content-style-class: Body;
 }
@@ -58,13 +70,14 @@ mcTableBodyStyle
 	separator-color: #e8e9eb;
 	name: Body1;
 	id: 1;
-	font-size: 12pt;
+	font-size: 16px;
 	font-family: Roboto;
 	vertical-align: middle;
 	text-align: left;
 	cell-padding-left: 6px;
 	cell-content-style-tag: p;
 	cell-content-style-class: Body;
+	color: #202a3e;
 }
 
 
@@ -94,6 +107,11 @@ mcTableBodyStyle
 	
 }
 
+.TableStyle-GS_Content-Column-Column2
+{
+	
+}
+
 .TableStyle-GS_Content-Head-Header1
 {
 	
@@ -101,7 +119,8 @@ mcTableBodyStyle
 
 .TableStyle-GS_Content-HeadI-Column1-Header1
 {
-	font-size: 12pt;
+	color: #202a3e;
+	font-size: 16px;
 	font-family: Homie;
 	text-align: left;
 	vertical-align: middle;
@@ -110,13 +129,15 @@ mcTableBodyStyle
 
 .TableStyle-GS_Content-HeadI-Column1-Header1 p
 {
-	font-size: 12pt;
+	color: #202a3e;
+	font-size: 16px;
 	font-family: Homie;
 }
 
 .TableStyle-GS_Content-HeadE-Column1-Header1
 {
-	font-size: 12pt;
+	color: #202a3e;
+	font-size: 16px;
 	border-right-width: 1px;
 	border-right-color: #e8e9eb;
 	border-right-style: solid;
@@ -131,13 +152,15 @@ mcTableBodyStyle
 
 .TableStyle-GS_Content-HeadE-Column1-Header1 p
 {
-	font-size: 12pt;
+	color: #202a3e;
+	font-size: 16px;
 	font-family: Homie;
 }
 
 .TableStyle-GS_Content-HeadF-Column1-Header1
 {
-	font-size: 12pt;
+	color: #202a3e;
+	font-size: 16px;
 	font-family: Homie;
 	text-align: left;
 	vertical-align: middle;
@@ -149,13 +172,15 @@ mcTableBodyStyle
 
 .TableStyle-GS_Content-HeadF-Column1-Header1 p
 {
-	font-size: 12pt;
+	color: #202a3e;
+	font-size: 16px;
 	font-family: Homie;
 }
 
 .TableStyle-GS_Content-HeadH-Column1-Header1
 {
-	font-size: 12pt;
+	color: #202a3e;
+	font-size: 16px;
 	border-right-width: 1px;
 	border-right-color: #e8e9eb;
 	border-right-style: solid;
@@ -167,13 +192,15 @@ mcTableBodyStyle
 
 .TableStyle-GS_Content-HeadH-Column1-Header1 p
 {
-	font-size: 12pt;
+	color: #202a3e;
+	font-size: 16px;
 	font-family: Homie;
 }
 
 .TableStyle-GS_Content-HeadD-Column1-Header1
 {
-	font-size: 12pt;
+	color: #202a3e;
+	font-size: 16px;
 	font-family: Homie;
 	text-align: left;
 	vertical-align: middle;
@@ -185,13 +212,15 @@ mcTableBodyStyle
 
 .TableStyle-GS_Content-HeadD-Column1-Header1 p
 {
-	font-size: 12pt;
+	color: #202a3e;
+	font-size: 16px;
 	font-family: Homie;
 }
 
 .TableStyle-GS_Content-HeadC-Column1-Header1
 {
-	font-size: 12pt;
+	color: #202a3e;
+	font-size: 16px;
 	font-family: Homie;
 	text-align: left;
 	vertical-align: middle;
@@ -200,13 +229,15 @@ mcTableBodyStyle
 
 .TableStyle-GS_Content-HeadC-Column1-Header1 p
 {
-	font-size: 12pt;
+	color: #202a3e;
+	font-size: 16px;
 	font-family: Homie;
 }
 
 .TableStyle-GS_Content-HeadB-Column1-Header1
 {
-	font-size: 12pt;
+	color: #202a3e;
+	font-size: 16px;
 	border-right-width: 1px;
 	border-right-color: #e8e9eb;
 	border-right-style: solid;
@@ -218,13 +249,15 @@ mcTableBodyStyle
 
 .TableStyle-GS_Content-HeadB-Column1-Header1 p
 {
-	font-size: 12pt;
+	color: #202a3e;
+	font-size: 16px;
 	font-family: Homie;
 }
 
 .TableStyle-GS_Content-HeadA-Column1-Header1
 {
-	font-size: 12pt;
+	color: #202a3e;
+	font-size: 16px;
 	font-family: Homie;
 	text-align: left;
 	vertical-align: middle;
@@ -233,13 +266,15 @@ mcTableBodyStyle
 
 .TableStyle-GS_Content-HeadA-Column1-Header1 p
 {
-	font-size: 12pt;
+	color: #202a3e;
+	font-size: 16px;
 	font-family: Homie;
 }
 
 .TableStyle-GS_Content-HeadG-Column1-Header1
 {
-	font-size: 12pt;
+	color: #202a3e;
+	font-size: 16px;
 	font-family: Homie;
 	text-align: left;
 	vertical-align: middle;
@@ -248,26 +283,165 @@ mcTableBodyStyle
 
 .TableStyle-GS_Content-HeadG-Column1-Header1 p
 {
-	font-size: 12pt;
+	color: #202a3e;
+	font-size: 16px;
+	font-family: Homie;
+}
+
+.TableStyle-GS_Content-HeadI-Column2-Header1
+{
+	color: ;
+	font-family: Homie;
+	text-align: left;
+	vertical-align: middle;
+	padding-left: 6px;
+}
+
+.TableStyle-GS_Content-HeadI-Column2-Header1 p
+{
+	font-family: Homie;
+}
+
+.TableStyle-GS_Content-HeadE-Column2-Header1
+{
+	color: ;
+	font-family: Homie;
+	text-align: left;
+	vertical-align: middle;
+	padding-left: 6px;
+	border-bottom-width: 1px;
+	border-bottom-color: #e8e9eb;
+	border-bottom-style: solid;
+}
+
+.TableStyle-GS_Content-HeadE-Column2-Header1 p
+{
+	font-family: Homie;
+}
+
+.TableStyle-GS_Content-HeadF-Column2-Header1
+{
+	color: ;
+	font-family: Homie;
+	text-align: left;
+	vertical-align: middle;
+	padding-left: 6px;
+	border-bottom-width: 1px;
+	border-bottom-color: #e8e9eb;
+	border-bottom-style: solid;
+}
+
+.TableStyle-GS_Content-HeadF-Column2-Header1 p
+{
+	font-family: Homie;
+}
+
+.TableStyle-GS_Content-HeadH-Column2-Header1
+{
+	color: ;
+	font-family: Homie;
+	text-align: left;
+	vertical-align: middle;
+	padding-left: 6px;
+}
+
+.TableStyle-GS_Content-HeadH-Column2-Header1 p
+{
+	font-family: Homie;
+}
+
+.TableStyle-GS_Content-HeadD-Column2-Header1
+{
+	color: ;
+	font-family: Homie;
+	text-align: left;
+	vertical-align: middle;
+	padding-left: 6px;
+	border-bottom-width: 1px;
+	border-bottom-color: #e8e9eb;
+	border-bottom-style: solid;
+}
+
+.TableStyle-GS_Content-HeadD-Column2-Header1 p
+{
+	font-family: Homie;
+}
+
+.TableStyle-GS_Content-HeadC-Column2-Header1
+{
+	color: ;
+	font-family: Homie;
+	text-align: left;
+	vertical-align: middle;
+	padding-left: 6px;
+}
+
+.TableStyle-GS_Content-HeadC-Column2-Header1 p
+{
+	font-family: Homie;
+}
+
+.TableStyle-GS_Content-HeadB-Column2-Header1
+{
+	color: ;
+	font-family: Homie;
+	text-align: left;
+	vertical-align: middle;
+	padding-left: 6px;
+}
+
+.TableStyle-GS_Content-HeadB-Column2-Header1 p
+{
+	font-family: Homie;
+}
+
+.TableStyle-GS_Content-HeadA-Column2-Header1
+{
+	color: ;
+	font-family: Homie;
+	text-align: left;
+	vertical-align: middle;
+	padding-left: 6px;
+}
+
+.TableStyle-GS_Content-HeadA-Column2-Header1 p
+{
+	font-family: Homie;
+}
+
+.TableStyle-GS_Content-HeadG-Column2-Header1
+{
+	color: ;
+	font-family: Homie;
+	text-align: left;
+	vertical-align: middle;
+	padding-left: 6px;
+}
+
+.TableStyle-GS_Content-HeadG-Column2-Header1 p
+{
 	font-family: Homie;
 }
 
 .TableStyle-GS_Content-FootI-Column1-
 {
+	color: #202a3e;
 	font-family: Roboto;
-	font-size: 12pt;
+	font-size: 16px;
 }
 
 .TableStyle-GS_Content-FootI-Column1- p
 {
+	color: #202a3e;
 	font-family: Roboto;
-	font-size: 12pt;
+	font-size: 16px;
 }
 
 .TableStyle-GS_Content-FootE-Column1-
 {
+	color: #202a3e;
 	font-family: Roboto;
-	font-size: 12pt;
+	font-size: 16px;
 	border-right-width: 1px;
 	border-right-color: #e8e9eb;
 	border-right-style: solid;
@@ -275,26 +449,30 @@ mcTableBodyStyle
 
 .TableStyle-GS_Content-FootE-Column1- p
 {
+	color: #202a3e;
 	font-family: Roboto;
-	font-size: 12pt;
+	font-size: 16px;
 }
 
 .TableStyle-GS_Content-FootF-Column1-
 {
+	color: #202a3e;
 	font-family: Roboto;
-	font-size: 12pt;
+	font-size: 16px;
 }
 
 .TableStyle-GS_Content-FootF-Column1- p
 {
+	color: #202a3e;
 	font-family: Roboto;
-	font-size: 12pt;
+	font-size: 16px;
 }
 
 .TableStyle-GS_Content-FootH-Column1-
 {
+	color: #202a3e;
 	font-family: Roboto;
-	font-size: 12pt;
+	font-size: 16px;
 	border-right-width: 1px;
 	border-right-color: #e8e9eb;
 	border-right-style: solid;
@@ -302,38 +480,44 @@ mcTableBodyStyle
 
 .TableStyle-GS_Content-FootH-Column1- p
 {
+	color: #202a3e;
 	font-family: Roboto;
-	font-size: 12pt;
+	font-size: 16px;
 }
 
 .TableStyle-GS_Content-FootD-Column1-
 {
+	color: #202a3e;
 	font-family: Roboto;
-	font-size: 12pt;
+	font-size: 16px;
 }
 
 .TableStyle-GS_Content-FootD-Column1- p
 {
+	color: #202a3e;
 	font-family: Roboto;
-	font-size: 12pt;
+	font-size: 16px;
 }
 
 .TableStyle-GS_Content-FootC-Column1-
 {
+	color: #202a3e;
 	font-family: Roboto;
-	font-size: 12pt;
+	font-size: 16px;
 }
 
 .TableStyle-GS_Content-FootC-Column1- p
 {
+	color: #202a3e;
 	font-family: Roboto;
-	font-size: 12pt;
+	font-size: 16px;
 }
 
 .TableStyle-GS_Content-FootB-Column1-
 {
+	color: #202a3e;
 	font-family: Roboto;
-	font-size: 12pt;
+	font-size: 16px;
 	border-right-width: 1px;
 	border-right-color: #e8e9eb;
 	border-right-style: solid;
@@ -341,32 +525,136 @@ mcTableBodyStyle
 
 .TableStyle-GS_Content-FootB-Column1- p
 {
+	color: #202a3e;
 	font-family: Roboto;
-	font-size: 12pt;
+	font-size: 16px;
 }
 
 .TableStyle-GS_Content-FootA-Column1-
 {
+	color: #202a3e;
 	font-family: Roboto;
-	font-size: 12pt;
+	font-size: 16px;
 }
 
 .TableStyle-GS_Content-FootA-Column1- p
 {
+	color: #202a3e;
 	font-family: Roboto;
-	font-size: 12pt;
+	font-size: 16px;
 }
 
 .TableStyle-GS_Content-FootG-Column1-
 {
+	color: #202a3e;
 	font-family: Roboto;
-	font-size: 12pt;
+	font-size: 16px;
 }
 
 .TableStyle-GS_Content-FootG-Column1- p
 {
+	color: #202a3e;
 	font-family: Roboto;
-	font-size: 12pt;
+	font-size: 16px;
+}
+
+.TableStyle-GS_Content-FootI-Column2-
+{
+	color: ;
+	font-family: Roboto;
+}
+
+.TableStyle-GS_Content-FootI-Column2- p
+{
+	font-family: Roboto;
+}
+
+.TableStyle-GS_Content-FootE-Column2-
+{
+	color: ;
+	font-family: Roboto;
+}
+
+.TableStyle-GS_Content-FootE-Column2- p
+{
+	font-family: Roboto;
+}
+
+.TableStyle-GS_Content-FootF-Column2-
+{
+	color: ;
+	font-family: Roboto;
+}
+
+.TableStyle-GS_Content-FootF-Column2- p
+{
+	font-family: Roboto;
+}
+
+.TableStyle-GS_Content-FootH-Column2-
+{
+	color: ;
+	font-family: Roboto;
+}
+
+.TableStyle-GS_Content-FootH-Column2- p
+{
+	font-family: Roboto;
+}
+
+.TableStyle-GS_Content-FootD-Column2-
+{
+	color: ;
+	font-family: Roboto;
+}
+
+.TableStyle-GS_Content-FootD-Column2- p
+{
+	font-family: Roboto;
+}
+
+.TableStyle-GS_Content-FootC-Column2-
+{
+	color: ;
+	font-family: Roboto;
+}
+
+.TableStyle-GS_Content-FootC-Column2- p
+{
+	font-family: Roboto;
+}
+
+.TableStyle-GS_Content-FootB-Column2-
+{
+	color: ;
+	font-family: Roboto;
+}
+
+.TableStyle-GS_Content-FootB-Column2- p
+{
+	font-family: Roboto;
+}
+
+.TableStyle-GS_Content-FootA-Column2-
+{
+	color: ;
+	font-family: Roboto;
+}
+
+.TableStyle-GS_Content-FootA-Column2- p
+{
+	font-family: Roboto;
+}
+
+.TableStyle-GS_Content-FootG-Column2-
+{
+	color: ;
+	font-family: Roboto;
+}
+
+.TableStyle-GS_Content-FootG-Column2- p
+{
+	font-family: Roboto;
 }
 
 .TableStyle-GS_Content-Body-Body1
@@ -379,14 +667,16 @@ mcTableBodyStyle
 	text-align: left;
 	vertical-align: middle;
 	padding-left: 6px;
+	color: #202a3e;
 	font-family: Roboto;
-	font-size: 12pt;
+	font-size: 16px;
 }
 
 .TableStyle-GS_Content-BodyI-Column1-Body1 p
 {
+	color: #202a3e;
 	font-family: Roboto;
-	font-size: 12pt;
+	font-size: 16px;
 }
 
 .TableStyle-GS_Content-BodyE-Column1-Body1
@@ -397,8 +687,9 @@ mcTableBodyStyle
 	border-bottom-width: 1px;
 	border-bottom-color: #e8e9eb;
 	border-bottom-style: solid;
+	color: #202a3e;
 	font-family: Roboto;
-	font-size: 12pt;
+	font-size: 16px;
 	border-right-width: 1px;
 	border-right-color: #e8e9eb;
 	border-right-style: solid;
@@ -406,8 +697,9 @@ mcTableBodyStyle
 
 .TableStyle-GS_Content-BodyE-Column1-Body1 p
 {
+	color: #202a3e;
 	font-family: Roboto;
-	font-size: 12pt;
+	font-size: 16px;
 }
 
 .TableStyle-GS_Content-BodyF-Column1-Body1
@@ -418,14 +710,16 @@ mcTableBodyStyle
 	border-bottom-width: 1px;
 	border-bottom-color: #e8e9eb;
 	border-bottom-style: solid;
+	color: #202a3e;
 	font-family: Roboto;
-	font-size: 12pt;
+	font-size: 16px;
 }
 
 .TableStyle-GS_Content-BodyF-Column1-Body1 p
 {
+	color: #202a3e;
 	font-family: Roboto;
-	font-size: 12pt;
+	font-size: 16px;
 }
 
 .TableStyle-GS_Content-BodyH-Column1-Body1
@@ -433,8 +727,9 @@ mcTableBodyStyle
 	text-align: left;
 	vertical-align: middle;
 	padding-left: 6px;
+	color: #202a3e;
 	font-family: Roboto;
-	font-size: 12pt;
+	font-size: 16px;
 	border-right-width: 1px;
 	border-right-color: #e8e9eb;
 	border-right-style: solid;
@@ -442,8 +737,9 @@ mcTableBodyStyle
 
 .TableStyle-GS_Content-BodyH-Column1-Body1 p
 {
+	color: #202a3e;
 	font-family: Roboto;
-	font-size: 12pt;
+	font-size: 16px;
 }
 
 .TableStyle-GS_Content-BodyD-Column1-Body1
@@ -454,14 +750,16 @@ mcTableBodyStyle
 	border-bottom-width: 1px;
 	border-bottom-color: #e8e9eb;
 	border-bottom-style: solid;
+	color: #202a3e;
 	font-family: Roboto;
-	font-size: 12pt;
+	font-size: 16px;
 }
 
 .TableStyle-GS_Content-BodyD-Column1-Body1 p
 {
+	color: #202a3e;
 	font-family: Roboto;
-	font-size: 12pt;
+	font-size: 16px;
 }
 
 .TableStyle-GS_Content-BodyC-Column1-Body1
@@ -469,14 +767,16 @@ mcTableBodyStyle
 	text-align: left;
 	vertical-align: middle;
 	padding-left: 6px;
+	color: #202a3e;
 	font-family: Roboto;
-	font-size: 12pt;
+	font-size: 16px;
 }
 
 .TableStyle-GS_Content-BodyC-Column1-Body1 p
 {
+	color: #202a3e;
 	font-family: Roboto;
-	font-size: 12pt;
+	font-size: 16px;
 }
 
 .TableStyle-GS_Content-BodyB-Column1-Body1
@@ -484,8 +784,9 @@ mcTableBodyStyle
 	text-align: left;
 	vertical-align: middle;
 	padding-left: 6px;
+	color: #202a3e;
 	font-family: Roboto;
-	font-size: 12pt;
+	font-size: 16px;
 	border-right-width: 1px;
 	border-right-color: #e8e9eb;
 	border-right-style: solid;
@@ -493,8 +794,9 @@ mcTableBodyStyle
 
 .TableStyle-GS_Content-BodyB-Column1-Body1 p
 {
+	color: #202a3e;
 	font-family: Roboto;
-	font-size: 12pt;
+	font-size: 16px;
 }
 
 .TableStyle-GS_Content-BodyA-Column1-Body1
@@ -502,14 +804,16 @@ mcTableBodyStyle
 	text-align: left;
 	vertical-align: middle;
 	padding-left: 6px;
+	color: #202a3e;
 	font-family: Roboto;
-	font-size: 12pt;
+	font-size: 16px;
 }
 
 .TableStyle-GS_Content-BodyA-Column1-Body1 p
 {
+	color: #202a3e;
 	font-family: Roboto;
-	font-size: 12pt;
+	font-size: 16px;
 }
 
 .TableStyle-GS_Content-BodyG-Column1-Body1
@@ -517,14 +821,169 @@ mcTableBodyStyle
 	text-align: left;
 	vertical-align: middle;
 	padding-left: 6px;
+	color: #202a3e;
 	font-family: Roboto;
-	font-size: 12pt;
+	font-size: 16px;
 }
 
 .TableStyle-GS_Content-BodyG-Column1-Body1 p
 {
+	color: #202a3e;
 	font-family: Roboto;
-	font-size: 12pt;
+	font-size: 16px;
+}
+
+.TableStyle-GS_Content-BodyI-Column2-Body1
+{
+	font-size: 16px;
+	text-align: left;
+	vertical-align: middle;
+	padding-left: 6px;
+	color: ;
+	font-family: Roboto;
+}
+
+.TableStyle-GS_Content-BodyI-Column2-Body1 p
+{
+	font-size: 16px;
+	font-family: Roboto;
+}
+
+.TableStyle-GS_Content-BodyE-Column2-Body1
+{
+	font-size: 16px;
+	text-align: left;
+	vertical-align: middle;
+	padding-left: 6px;
+	border-bottom-width: 1px;
+	border-bottom-color: #e8e9eb;
+	border-bottom-style: solid;
+	color: ;
+	font-family: Roboto;
+}
+
+.TableStyle-GS_Content-BodyE-Column2-Body1 p
+{
+	font-size: 16px;
+	font-family: Roboto;
+}
+
+.TableStyle-GS_Content-BodyF-Column2-Body1
+{
+	font-size: 16px;
+	text-align: left;
+	vertical-align: middle;
+	padding-left: 6px;
+	border-bottom-width: 1px;
+	border-bottom-color: #e8e9eb;
+	border-bottom-style: solid;
+	color: ;
+	font-family: Roboto;
+}
+
+.TableStyle-GS_Content-BodyF-Column2-Body1 p
+{
+	font-size: 16px;
+	font-family: Roboto;
+}
+
+.TableStyle-GS_Content-BodyH-Column2-Body1
+{
+	font-size: 16px;
+	text-align: left;
+	vertical-align: middle;
+	padding-left: 6px;
+	color: ;
+	font-family: Roboto;
+}
+
+.TableStyle-GS_Content-BodyH-Column2-Body1 p
+{
+	font-size: 16px;
+	font-family: Roboto;
+}
+
+.TableStyle-GS_Content-BodyD-Column2-Body1
+{
+	font-size: 16px;
+	text-align: left;
+	vertical-align: middle;
+	padding-left: 6px;
+	border-bottom-width: 1px;
+	border-bottom-color: #e8e9eb;
+	border-bottom-style: solid;
+	color: ;
+	font-family: Roboto;
+}
+
+.TableStyle-GS_Content-BodyD-Column2-Body1 p
+{
+	font-size: 16px;
+	font-family: Roboto;
+}
+
+.TableStyle-GS_Content-BodyC-Column2-Body1
+{
+	font-size: 16px;
+	text-align: left;
+	vertical-align: middle;
+	padding-left: 6px;
+	color: ;
+	font-family: Roboto;
+}
+
+.TableStyle-GS_Content-BodyC-Column2-Body1 p
+{
+	font-size: 16px;
+	font-family: Roboto;
+}
+
+.TableStyle-GS_Content-BodyB-Column2-Body1
+{
+	font-size: 16px;
+	text-align: left;
+	vertical-align: middle;
+	padding-left: 6px;
+	color: ;
+	font-family: Roboto;
+}
+
+.TableStyle-GS_Content-BodyB-Column2-Body1 p
+{
+	font-size: 16px;
+	font-family: Roboto;
+}
+
+.TableStyle-GS_Content-BodyA-Column2-Body1
+{
+	font-size: 16px;
+	text-align: left;
+	vertical-align: middle;
+	padding-left: 6px;
+	color: ;
+	font-family: Roboto;
+}
+
+.TableStyle-GS_Content-BodyA-Column2-Body1 p
+{
+	font-size: 16px;
+	font-family: Roboto;
+}
+
+.TableStyle-GS_Content-BodyG-Column2-Body1
+{
+	font-size: 16px;
+	text-align: left;
+	vertical-align: middle;
+	padding-left: 6px;
+	color: ;
+	font-family: Roboto;
+}
+
+.TableStyle-GS_Content-BodyG-Column2-Body1 p
+{
+	font-size: 16px;
+	font-family: Roboto;
 }
 
 
